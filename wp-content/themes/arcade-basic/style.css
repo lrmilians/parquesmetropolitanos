@@ -8539,6 +8539,25 @@ a img.aligncenter {
 
 }
 
+.text-img-taxo {  
+    margin: 2% 0 0 5%;
+    font-size: 2.4em;
+}
+.text-img-raposa {  
+    margin: 2% 0 0 83%;
+    font-size: 2.4em;
+}
+.text-img-llinllin {  
+    margin: 2% 0 0 5%;
+    font-size: 2.4em;
+    text-shadow: 3px 3px 3px #000000;
+}
+.text-img-quilico {  
+    margin: 2% 0 0 83%;
+    font-size: 2.4em;
+    text-shadow: 3px 3px 3px #000000;
+}
+
 .red-text{
     color: #000000;
     font-family: 'PT Sans Narrow';
@@ -8727,31 +8746,42 @@ a img.aligncenter {
     margin: 0 0 0 2%;
 }
 
-.titulo-armenia {
-    font-family: mySecondFont;
-    font-size: 16.6em;
+/*----Estilo Interior de Parques ----*/
+.titulo-interior {
+    font-family: mySecondFont; 
     color: #31150B;
     font-weight: bold;
-    margin: -6% -30% 0;
     position: absolute;
 }
-.slogan-armenia {
+/*----Fin Estilo Interior de Parques ----*/
+
+/*----Estilo de Armenia -------*/
+
+.titulo-armenia { 
+    font-size: 16.6em;
+    margin: -13% -30% 0;
+}
+
+.slogan-interior {
     color: #31150B;
     font-family: 'myFirstFont';
-    font-size: 2.5em;
-    font-weight: normal;
-    margin: 6% 0 0 12.4%;
     position: absolute;
+    font-weight: normal;
     text-align: center;
+}
+.slogan-armenia { 
+    font-size: 2.5em; 
+    margin: 0 0 0 12.4%;
+}
+.col-xs-2.sin-padding.dragon {
+    margin: -5% 0 0;
 }
 .col-armenia{
     height: 100px;
 }
-
 .texto-center {
     text-align: center;
 }
-
 .armenia-seccion2 {
     background: url("library/images/armenia/seccion2-fondo.jpg");
     width: 100%;
@@ -8763,11 +8793,9 @@ a img.aligncenter {
     max-height: 800px;
 }
 
-
 .armenia-margen-img1{
     padding: 8% 18%;
 }
-
 .armenia-img1 {
     max-height: 700px;
 }
@@ -8784,5 +8812,110 @@ a img.aligncenter {
 .consejos-utiles{
     float: left;
 }
+
+/*----Fin Estilo de Armenia ------*/
+
+/*---=Estilo de Chaquinan --------*/
+.titulo-chaquinan {
+    font-size: 16.6em;
+    margin: -13% -30% 0;
+}
+.slogan-chaquinan { 
+    font-size: 2.5em; 
+   // margin: 2% 0 0 23.4%;
+   margin: 4% 0 0 23.4%;
+}
+.col-xs-2.sin-padding.colibri {
+   // margin: -5% 0 1% 0;
+   margin: -4.2% 0 2.7% 0;
+}
+.col-chaquinan{
+    height: 100px;
+}
+.chaquinan-seccion2 {
+    background: url("library/images/chaquinan/seccion2-fondo.jpg");
+    width: 100%;
+    max-height: 950px;
+}
+.chaquinan-seccion3 {
+    background: url("library/images/chaquinan/seccion3-fondo.jpg");
+    width: 100%;
+    max-height: 800px;
+}
+.text-img-monja {  
+    margin: 2% 0 0 60%;
+    font-size: 2.4em;
+}
+.text-img-tangara {  
+    margin: 2% 0 0 62%;
+     font-size: 2.4em;
+}
+.text-img-esmeralda {  
+    margin: 2% 0 0 77%;
+     font-size: 2.4em;
+}
+.text-img-azulejo {  
+    margin: 2% 0 0 82%;
+     font-size: 2.4em;
+}
+.tilde {
+    background: url("library/images/chaquinan/tilde.png");
+    width: 55px;
+    height: 23px;
+    position: absolute;
+    margin: -1.3% 0 0 65%;
+}
+/*--- Fin Estilo de Chaquinan -----*/
+
+/*---=Estilo de Cuscungo--------*/
+.titulo-cuscungo{
+    font-size: 16.6em;
+    margin: -13% -22.6% 0;
+}
+.slogan-cuscungo { 
+    font-size: 2.5em; 
+    margin: 6.0% 0 0 24.6%;
+}
+.col-xs-3.sin-padding.subebaja {
+   margin: -3.9% 0 1.5%;
+}
+.col-cuscungo{
+    height: 100px;
+}
+.cuscungo-seccion2 {
+    background: url("library/images/cuscungo/seccion2-fondo.jpg");
+    width: 100%;
+    max-height: 950px;
+}
+.cuscungo-seccion3 {
+    background: url("library/images/cuscungo/seccion3-fondo.jpg");
+    width: 100%;
+    max-height: 800px;
+}
+.text-img-catso{  
+    margin: 2% 0 0 60%;
+    font-size: 2.4em;
+}
+.text-img-lagartija {  
+    margin: 2% 0 0 62%;
+     font-size: 2.4em;
+}
+.text-img-maihua {  
+    margin: 2% 0 0 77%;
+     font-size: 2.4em;
+}
+.text-img-tocte {  
+    margin: 2% 0 0 82%;
+     font-size: 2.4em;
+}
+.tilde {
+    background: url("library/images/chaquinan/tilde.png");
+    width: 55px;
+    height: 23px;
+    position: absolute;
+    margin: -1.3% 0 0 65%;
+}
+/*--- Fin Estilo de Cuscungo -----*/
+
 
 

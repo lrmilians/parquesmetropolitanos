@@ -89,6 +89,24 @@
 
                     if ('' == locate_template('footer-page.php', true))
                        load_template( ABSPATH . WPINC . '/theme-compat/footer-page.php');
+            } elseif ((get_the_ID() == 38) || (get_the_ID() == 37)) { 
+                    if ('' == locate_template('chaquinan-header-page.php', true))
+                        load_template( ABSPATH . WPINC . '/theme-compat/chaquinan-header-page.php');
+                
+                    if ('' == locate_template('chaquinan-page.php', true))
+                       load_template( ABSPATH . WPINC . '/theme-compat/chaquinan-page.php');
+
+                    if ('' == locate_template('footer-page.php', true))
+                       load_template( ABSPATH . WPINC . '/theme-compat/footer-page.php');   
+            } elseif ((get_the_ID() == 40) || (get_the_ID() == 39)) { 
+                    if ('' == locate_template('cuscungo-header-page.php', true))
+                        load_template( ABSPATH . WPINC . '/theme-compat/cuscungo-header-page.php');
+                
+                    if ('' == locate_template('cuscungo-page.php', true))
+                       load_template( ABSPATH . WPINC . '/theme-compat/cuscungo-page.php');
+
+                    if ('' == locate_template('footer-page.php', true))
+                       load_template( ABSPATH . WPINC . '/theme-compat/footer-page.php');            
             } else { ?>
 
 

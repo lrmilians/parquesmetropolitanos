@@ -57,17 +57,23 @@
 <div class="row">
     <div class="col-xs-12 sin-padding">
         <div class="col-xs-6 sin-padding">
+            <span class="text-img text-img-taxo">Taxo</span>
             <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/library/images/armenia/seccion5-img1.jpg">
         </div>
         <div class="col-xs-6 sin-padding">
-            <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/library/images/armenia/seccion5-img2.jpg">
+            <span class="text-img text-img-raposa">Raposa</span>
+            <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/library/images/armenia/seccion5-img2.jpg">        
         </div> 
+        
+        
     </div>
     <div class="col-xs-12 sin-padding">
         <div class="col-xs-6 sin-padding">
+            <span class="text-img text-img-llinllin">Llinllin</span>
             <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/library/images/armenia/seccion5-img3.jpg">
         </div>
         <div class="col-xs-6 sin-padding">
+            <span class="text-img text-img-quilico">Quilico</span>
             <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/library/images/armenia/seccion5-img4.jpg">
         </div>
     </div> 
