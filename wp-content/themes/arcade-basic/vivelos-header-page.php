@@ -1,6 +1,6 @@
 <div class="row">
     <div class="row fijo">
-        <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/library/images/vivelos/vivelos-fondo.png"> 
+        <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/library/images/vivelos/vivelos-fondo.jpg"> 
     </div>
 </div>
 <div class="row">

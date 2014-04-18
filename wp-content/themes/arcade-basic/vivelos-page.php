@@ -11,7 +11,7 @@
                             </div>
                             <div class="col-xs-3 sin-padding">
                                 <a href="#" class="image-w">
-                                    <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/library/images/vivelos/vivelos-img2.png">
+                                    <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/library/images/vivelos/vivelos-img2.jpg">
                                     <div class="cover vivelos-cover">
                                         <p class="text-over">Texto</p>
                                     </div>
