@@ -1,3 +1,4 @@
+
 <div class="row thumbnail-list descubre-padding">
     <div class="col-xs-12 padding-lateral">
         <div class="col-xs-12">
