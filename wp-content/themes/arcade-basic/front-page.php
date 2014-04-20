@@ -42,7 +42,7 @@
                             <img class="img-responsive img-margin-buho" src="<?php bloginfo('template_url'); ?>/library/images/home/buho.jpg">
                         </div>
                         <div class="col-xs-8 text-disfrutalos">  
-                            <span class="subtitulo text-disfrutalos">Disfrútalos</span>
+                            <span class="subtitulo disfrutalos">Disfrútalos</span>
                         </div>
                     </div>
                 </div>
