@@ -1641,9 +1641,37 @@ pre code {
     }
 }
 @media (min-width: 1200px) {
+    .thumbnail-list .text-over-tienes-vivirlo {
+    font-size: 6.0em;
+}
+.margin-logo-page {
+    margin: 0 0 0 2%;
+}
+.titulo-descubre {
+    margin: 0 0 0 25px;
+}
+
     .container {
         width: 1170px;
     }
+    .socialLinks img {
+    width: 35px;
+}
+.margin-logo {
+    margin: 0 0 0 3%;
+}
+
+.fondo-pie{
+    background-color: #fff; 
+    padding: 5px 0 20px 0;
+}    
+    .descubre {
+    margin: 50px 0 235px 0;
+}
+.tipo{
+    font-family: PT Sans Narrow;
+    font-size: 1.2em;
+}
 
     .col-lg-1,
     .col-lg-2,
@@ -3689,8 +3717,8 @@ textarea.input-group-sm > .input-group-btn > .comment-reply-link,
 .nav > li > a:hover,
 .nav > li > a:focus {
     text-decoration: none;
-    background: none repeat scroll 0 0 rgba(252, 252, 252, 0.12);
-    // background-color: #eeeeee;
+    color: #ffffff;
+   
 }
 
 .nav > li.disabled > a {
@@ -4119,7 +4147,7 @@ textarea.input-group-sm > .input-group-btn > .comment-reply-link,
     margin-top: 8px;
     margin-right: 15px;
     margin-bottom: 8px;
-    background-color: transparent;
+    background-color:#333;
     border: 1px solid transparent;
     border-radius: 4px;
 }
@@ -6299,6 +6327,10 @@ td.visible-xs {
     .visible-xs.visible-lg {
         display: block !important;
     }
+    .thumbnail-list p {
+    //  font-size: 1.6em;
+    font-size: 2.4em;
+}
 
     tr.visible-xs.visible-lg {
         display: table-row !important;
@@ -6488,7 +6520,13 @@ td.visible-lg {
     .visible-lg {
         display: block !important;
     }
-
+.titulo {
+    font-family: 'chalkdust';
+    font-size: 3em;
+    //color: #31150b;
+    color: #FFFFFF;
+    text-shadow: 1.2px 3.1px 3.0px #000000;
+}
     tr.visible-lg {
         display: table-row !important;
     }
@@ -7247,13 +7285,775 @@ input, textarea {
 -------------------------------------------------------------- */
 #home-page-widgets {
     padding: 60px 0 40px;
-    background: #F7F7F7;
+    background: #F7F7F7;   
 }
-@media (max-width: 768px) {
-    #home-page-widgets {
-        margin: 0;
+
+/* media query  320 andre */
+@media (max-width: 320px) {
+    .navbar-nav > li > a
+    {line-height: 10px;
+     font-size:0.6em;
+     margin-left:2%;
+        
+        }
+        .margin-logo-page {
+    margin: 0 0 0 4%;
+    
+}
+        .social {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 5px 2px 16px -3px;
+}
+.logo-center-descubre{
+        margin: 20.3% -26px 6px 40.3%;
+    position: absolute;
+    width: 10%;
     }
+         .socialLinks img {
+    width: 27px;
 }
+.thumbnail-list p {
+   
+     font-size: 2.6em;
+    margin-left: -2%;
+    margin-top: -12%;
+}
+.titulo {
+    font-family: 'chalkdust';
+    font-size: 3em;
+    //color: #31150b;
+    color: #FFFFFF;
+    text-shadow: 1.2px 3.1px 3.0px #000000;
+}
+.titulo-descubre{ font-size: 1.4em;
+    margin-left: 11%;     
+        }
+        .tipo{font-size: 0.2em;
+    margin-top: -25%;
+        }
+        .fondo-pie {
+    background-color: #FFFFFF;
+    padding: 5px 0 1px;
+}
+        #logoFooter{width: 47%;margin-left:24%;}
+         #logo1{width: 83%;height: 10%;}
+.social .img-responsive{      
+ 
+     margin-top: 45%;
+   
+    }
+    
+.descubre {
+    margin: 50px 0 8px 0;
+}
+     .socialLinks{
+  margin-left: -1%;
+    margin-top: -5%;
+}
+    .cover .text-over{  font-size: 9px;
+    margin-left: -25%;
+    margin-top: -5%;}
+     .cover .text-overMetro{  font-size: 18px;
+    margin-left: -10%;
+    margin-top: -5%;}
+    .cover .text-overRespira{  font-size: 18px;
+    margin-left: -10%;
+    margin-top: -10%;} 
+     .cover .text-overVive{  font-size: 18px;
+    margin-left: -17%;
+    margin-top: -5%;}      
+     .cover .text-overRecorre{  font-size: 18px;
+    margin-left: -17%;
+    margin-top: -5%;}      
+     .cover .text-overCuscungo{   margin-left: -4%;
+    margin-top: -10%; font-size: 18px;}
+    .cover .text-overArmenia{  margin-left: -19%;
+    margin-top: -10%; font-size: 18px;}
+    .cover .text-overSiente{  margin-left: -19%;
+    margin-top: -10%; font-size: 18px;}
+   .text-disfrutalos{margin-top: 9%;font-size: 6px;}  
+    .text-vivelo{margin-top: 1%;font-size: 6px;}
+    .descrube{margin-top: 1%;font-size: 6px;}
+    .logo-center{
+    height: 41%;
+    margin-left: 43%;
+    margin-top: -5%;
+    position: absolute;
+    width: 13%;}
+   .img-margin-adita{   
+   margin-top: 10%;
+    width: 62%;} 
+    .img-margin-buho{   
+   margin-top: 10%;
+    width: 62%;}    
+   .logo-centerParques .logo-center-sec3{   
+ float: left;
+    height: 9%;
+    margin-left: 42%;
+    margin-top: 26%;
+    position: absolute;
+    width: 17%;
+    z-index: 5;
+   } 
+
+   
+}
+
+/* media query  360 andre */
+@media (min-width: 360px)and (max-width: 400px){
+.social .img-responsive{      
+ 
+     margin-top: 45%;
+   
+    }
+     .socialLinks{
+      margin-left: -8%;
+    margin-top: 18%;
+}      
+    .cover .text-overMetro{  font-size: 18px;
+    margin-left: -10%;
+    margin-top: -5%;}
+    .cover .text-overRespira{  font-size: 18px;
+    margin-left: -10%;
+    margin-top: -5%;} 
+     .cover .text-overVive{  font-size: 18px;
+    margin-left: -17%;
+    margin-top: -5%;}      
+     .cover .text-overRecorre{  font-size: 18px;
+    margin-left: -17%;
+    margin-top: -5%;}      
+     .cover .text-overCuscungo{   margin-left: -4%;
+    margin-top: -10%; font-size: 18px;}
+    .cover .text-overArmenia{  margin-left: -19%;
+    margin-top: -10%; font-size: 18px;}
+    .cover .text-overSiente{  margin-left: -19%;
+    margin-top: -10%; font-size: 18px;}
+   .text-disfrutalos{margin-top:8%;font-size: 6px;}
+    .text-vivelo{margin-top: 1%;font-size: 6px;}
+    .text-overTienes{margin-top: -6.9%;font-size: 6px;}
+    .descrube{margin-top: 1%;font-size: 6px;}
+    .logo-center{
+    height: 42%;
+    margin-left: 45%;
+    margin-top: 45%;
+    width: 14%;}
+   .img-margin-adita{   
+   margin-top: 10%;
+    width: 62%;} 
+    .img-margin-buho{   
+   margin-top: 10%;
+    width: 62%;}    
+   .logo-centerParques .logo-center-sec3{   
+ float: left;
+    height: 10%;
+    margin-left: 42%;
+    margin-top: 26%;
+    position: absolute;
+    width: 17%;
+    z-index: 5;
+   } 
+}
+/* media query  480 andre */
+@media (min-width: 480px)and (max-width: 500px){
+    .logo-center-descubre{
+        margin: 26.3% 0 0 44.6%;
+    position: absolute;
+    width: 10%;
+    }
+    .margin-logo{
+       width: 18%;
+       }
+    .margin-logo-page {
+    width: 19.8%;
+}
+         .socialLinks img {
+    width: 27px;
+}
+.thumbnail-list p {
+   
+    font-size: 1.2em;
+    margin-left: -1%;
+    margin-top: -12%;
+}
+.navbar-nav > li > a {
+    margin-top: 2%;
+    padding-bottom: 0;
+    padding-top: 7px;
+    font-size:1em;
+}
+.descrubelos {
+    font-size: 7px;
+    margin-top:5%;
+}
+.titulo {
+    font-family: 'chalkdust';
+    font-size: 3em;
+    //color: #31150b;
+    color: #FFFFFF;
+    text-shadow: 1.2px 3.1px 3.0px #000000;
+}
+.titulo-descubre{ font-size: 1.4em;
+    margin-left: 1%;
+     
+        }
+.social .img-responsive{      
+ 
+     margin-top: 45%;
+   
+    } 
+    .social {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: -9px 2px 16px -3px;
+}
+         .socialLinks img {
+    width: 27px;
+}
+    .cover .text-overMetro{ font-size: 18px;
+    margin-left: -6%;
+    margin-top: -3%;}
+     .cover .text-overRespira{  font-size: 18px;
+    margin-left: -10%;
+    margin-top: -5%;} 
+     .cover .text-overVive{  font-size: 18px;
+    margin-left: -13%;
+    margin-top: -5%;}      
+     .cover .text-overRecorre{  font-size: 18px;
+    margin-left: -17%;
+    margin-top: -5%;}      
+     .cover .text-overCuscungo{   margin-left: -4%;
+      margin-top: -6%; font-size: 18px;}
+    .cover .text-overArmenia{  font-size: 18px;
+    margin-left: -11%;
+    margin-top: -6%;}
+    .cover .text-overSiente{  font-size: 18px;
+    margin-left: -13%;
+    margin-top: -5%;}
+    
+    .text-vivelo{font-size: 8px;
+    margin-top: 4%;}
+    .text-overTienes{margin-left: -6.9%;font-size: 50px;}
+    .descrube{margin-top: 1%;font-size: 6px;}
+    .logo-center{
+    height: 42%;
+    margin-left: 45%;
+    margin-top: 45c%;
+    width: 14%;}
+   .img-margin-adita{   
+   margin-top: 10%;
+    width: 62%;}
+   .text-disfrutalos {
+    font-size: 0.4em;
+   margin-left: 30%;
+    margin-top: -17%;
+}
+  .img-margin-buho{   
+   margin-top: 10%;
+    width: 62%;}    
+   .logo-centerParques .logo-center-sec3{   
+ float: left;
+    height: 6.9%;
+    margin-left: 42%;
+    margin-top: 28%;
+    position: absolute;
+    width: 17%;
+    z-index: 5;
+   } 
+   .tipo{font-size:0.5em;margin-top:-4%;}
+   #logo1{ height:20%;}
+   .socialLinks{
+  margin-left: -1%;
+    margin-top: -5%;
+}
+}
+
+
+/* media query  600 andre */
+@media (min-width: 600px)and (max-width: 650px){
+    .logo-center-descubre{
+        margin: 26.3% 0 0 44.6%;
+    position: absolute;
+    width: 10%;
+    }
+    .margin-logo{
+       width: 18%;
+       }
+    .margin-logo-page {
+    width: 14%;
+}
+         .socialLinks img {
+    width: 27px;
+}
+.thumbnail-list p {
+   
+    font-size: 1.2em;
+    margin-left: -1%;
+    margin-top: -12%;
+}
+.navbar-nav > li > a {
+     font-size: 0.8em;
+    margin-top: 5%;
+    padding-bottom: 1px;
+     line-height: 0;
+}
+.descrubelos {
+    font-size: 7px;
+    margin-top:5%;
+}
+.titulo {
+    font-family: 'chalkdust';
+    font-size: 3em;
+    //color: #31150b;
+    color: #FFFFFF;
+    text-shadow: 1.2px 3.1px 3.0px #000000;
+}
+.titulo-descubre{ font-size: 1.4em;
+    margin-left: 1%;
+     
+        }
+.social .img-responsive{      
+ 
+     margin-top: 45%;
+   
+    } 
+    .social {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 3px 15px  16px -3px;
+}
+         .socialLinks img {
+    width: 27px;
+}
+    .cover .text-overMetro{ font-size: 18px;
+    margin-left: -6%;
+    margin-top: -3%;}
+     .cover .text-overRespira{  font-size: 18px;
+    margin-left: -10%;
+    margin-top: -5%;} 
+     .cover .text-overVive{  font-size: 18px;
+    margin-left: -13%;
+    margin-top: -5%;}      
+     .cover .text-overRecorre{  font-size: 18px;
+    margin-left: -17%;
+    margin-top: -5%;}      
+     .cover .text-overCuscungo{   margin-left: -4%;
+      margin-top: -6%; font-size: 18px;}
+    .cover .text-overArmenia{  font-size: 18px;
+    margin-left: -11%;
+    margin-top: -6%;}
+    .cover .text-overSiente{  font-size: 18px;
+    margin-left: -13%;
+    margin-top: -5%;}
+    
+    .text-vivelo{font-size: 8px;
+    margin-top: 4%;}
+    .text-overTienes{margin-left: -6.9%;font-size: 50px;}
+    .descrube{margin-top: 1%;font-size: 6px;}
+    .logo-center{
+    height: 42%;
+    margin-left: 45%;
+    margin-top: 45c%;
+    width: 14%;}
+   .img-margin-adita{   
+   margin-top: 10%;
+    width: 62%;}
+   .text-disfrutalos {
+    font-size: 0.4em;
+   margin-left: 30%;
+    margin-top: -17%;
+}
+  .img-margin-buho{   
+   margin-top: 10%;
+    width: 62%;}    
+   .logo-centerParques .logo-center-sec3{   
+ float: left;
+    height: 6.9%;
+    margin-left: 42%;
+    margin-top: 28%;
+    position: absolute;
+    width: 17%;
+    z-index: 5;
+   } 
+   .tipo{font-size:0.5em;margin-top:-4%;}
+   #logo1{ height:20%;}
+   .socialLinks{
+  margin-left: -1%;
+    margin-top: -5%;
+}
+}
+/* media query  640 andre */
+@media (min-width: 640px)and (max-width: 700px){
+
+  .cover .text-overMetro{
+  
+    margin-top: -5%;
+}
+.titulo-descubre {
+    font-size: 2.4em;
+    margin-left: 5%;
+}
+.titulo {
+    color: #FFFFFF;
+    font-family: 'chalkdust';
+    font-size: 1.5em;
+    text-shadow: 1.2px 3.1px 3px #000000;
+}
+.social {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: -20px 24px 16px -3px;
+}
+         .socialLinks img {
+    width: 27px;
+}
+.text-disfrutalos {
+    font-size: 0.7em;
+    margin-left: 25%;
+    margin-top: -16%;
+}
+ .margin-logo-page {
+    margin: 0 0 0 2.4%;
+    width: 15%;
+}
+ .tipo{font-size:0.9em;margin-top:-4%;}
+.text-overTienes{margin-top: -6.9%;font-size: 11px;}
+.text-over{margin-left: -10%;
+    margin-top: 0.1%;}
+.logo-centerParques .logo-center-sec3{   
+ float: left;
+    height: 7.9%;
+    margin-left: 42%;
+    margin-top: 28%;
+    position: absolute;
+    width: 17%;
+    z-index: 5;
+   } 
+   .logo-center-descubre{   
+float: left; 
+    margin-left: 43%;
+    margin-top: -38%;
+    position: relative;
+    width: 13%;
+   } 
+    .cover .text-overMetro{ font-size: 18px;
+    margin-left: -6%;
+    margin-top: -3%;}
+     .cover .text-overRespira{  font-size: 18px;
+    margin-left: -10%;
+    margin-top: -5%;} 
+     .cover .text-overVive{  font-size: 18px;
+    margin-left: -10.9%;
+    margin-top: -5%;}      
+     .cover .text-overRecorre{  font-size: 18px;
+    margin-left: -17%;
+    margin-top: -5%;}  
+     .text-overTienes{margin-left: -6.9%;font-size: 50px;}
+     .cover .text-overCuscungo{   margin-left: -4%;
+      margin-top: -6%; font-size: 18px;}
+    .cover .text-overArmenia{  font-size: 18px;
+    margin-left: -11%;
+    margin-top: -6%;}
+    .cover .text-overSiente{  font-size: 18px;
+    margin-left: -10.9%;
+    margin-top: -5%;}
+   .logo-center{
+    height: 42%;
+       margin-left: 43%;
+    margin-top: -5%;
+    width: 14%;
+   position:absolute;}
+.margin-logo{z-index:-1;   width: 16%;}
+
+.navbar-nav > li > a {
+     font-size: 87%;
+    line-height: 3px;
+    margin-top: 4%;
+    padding-bottom: 2px;
+    padding-top: 3px;
+    margin-left:2%;
+}
+
+.cover .text-overArmenia{
+  
+    margin-top: -8%;
+}
+.cover .text-overCuscungo{
+  
+    margin-top: -8%;
+}
+
+}
+
+
+/* media query  720 andre */
+@media (min-width: 720px)and (max-width: 780px)
+{
+
+  .cover .text-overMetro{
+  
+    margin-top: -5%;
+}
+.logo-center-descubre{   
+float: left; 
+    margin-left: 43%;
+    margin-top: -38%;
+    position: relative;
+    width: 13%;
+   } 
+.titulo-descubre {
+    font-size: 2.4em;
+    margin-left: 5%;
+}
+.titulo {
+    color: #FFFFFF;
+    font-family: 'chalkdust';
+    font-size: 1.5em;
+    text-shadow: 1.2px 3.1px 3px #000000;
+}
+.social {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: -20px 20px 16px 20px;
+}
+         .socialLinks img {
+    width: 27px;
+}
+.margin-logo-page{margin: 0 0 0 2.4%;
+width:15%;}
+.text-disfrutalos {
+    font-size: 0.7em;
+   margin-left: 34%;
+    margin-top: -14%;
+}
+ .tipo{font-size:0.9em;margin-top:-4%;}
+.text-overTienes{margin-top: -6.9%;font-size: 11px;}
+.logo-centerParques .logo-center-sec3{   
+  float: left;
+    height: 8.9%;
+    margin-left: 41%;
+    margin-top: 28%;
+    position: absolute;
+    width: 17%;
+    z-index: 5;
+   }
+   
+   .margin-logo{ width: 15%;}
+    .cover .text-overMetro{ font-size: 18px;
+    margin-left: -4%;
+    margin-top: -3%;}
+     .cover .text-overRespira{  font-size: 18px;
+    margin-left: -10%;
+    margin-top: -5%;} 
+     .cover .text-overVive{  font-size: 18px;
+    margin-left: -7.9%;
+    margin-top: -5%;}      
+     .cover .text-overRecorre{  font-size: 18px;
+    margin-left: -17%;
+    margin-top: -5%;}      
+     .cover .text-overCuscungo{   margin-left: -4%;
+      margin-top: -6%; font-size: 18px;}
+    .cover .text-overArmenia{  font-size: 18px;
+    margin-left: -6.9%;
+    margin-top: -6%;}
+    .cover .text-overSiente{  font-size: 18px;
+    margin-left: -7.9%;
+    margin-top: -5%;}
+   .logo-center{
+    height: 42%;
+       margin-left: 43%;
+    margin-top: -5%;
+    width: 14%;
+   position:absolute;}
+   .navbar-nav > li > a {
+      font-size: 0.9em;
+    line-height: 0;
+    padding-bottom: 0;
+    padding-top: 38px;
+}
+
+.cover .text-overArmenia{
+  
+    margin-top: -8%;
+}
+.cover .text-overCuscungo{
+  
+    margin-top: -8%;
+}
+    .text-overTienes{font-size: 66px;
+    margin-left: -1.9%;}
+}
+
+/* media query  768 andre */
+@media (min-width: 768px) and (max-width: 800px){
+.text-overMetro{      
+ 
+     margin-top: -2%;
+   
+    }
+ .text-overArmenia
+ {      
+ 
+     margin-top: -2%;
+   
+    }
+    .cover .text-overCuscungo{      
+ 
+     margin-top: -2%;
+   
+    }
+ .logo-centerParques .logo-center-sec3
+          
+ {
+   margin-top: 29%;
+    position: absolute;
+    z-index: 5;
+    margin-left: 43%;
+   
+    }
+   .cover .text-overSiente{
+    margin-left: -5%;
+    margin-top: -4%;
+   
+    }
+    .cover .text-overVive{
+    margin-left: -5%;
+    margin-top: -4%;
+   
+    }
+   .cover .text-overRespira{
+    margin-left: -5%;
+    margin-top: -4%;
+   
+    }
+    .cover .text-overRecorre
+    {
+    margin-left: -5%;
+    margin-top: -4%;
+   
+    }
+    .text-overTienes
+    {
+    margin-left: -5%;
+    margin-top: -4%;
+   
+    }
+ }
+
+
+/* media query  1024 andre */
+
+@media (min-width: 1024px)and (max-width: 1200px)
+{
+ .titulo-descubre {
+    font-size: 2.4em;
+    margin-left: 0%;
+}
+.titulo {
+    color: #FFFFFF;
+    font-family: 'chalkdust';
+    font-size: 1.5em;
+    text-shadow: 1.2px 3.1px 3px #000000;
+}
+.social {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: -40px 20px 16px -3px;
+}
+         .socialLinks img {
+    width: 35px;
+}
+.text-disfrutalos {
+    font-size: 0.9em;
+    margin-left: 36%;
+    margin-top: -10%;
+}
+.thumbnail-list .text-over-tienes-vivirlo {
+    font-size: 9em;
+}
+ .tipo{font-size:0.9em;margin-top:-2%;}
+.text-overTienes{margin-top: -6.9%;font-size: 11px;}
+.logo-centerParques .logo-center-sec3{   
+ float: left;
+    height: 10.9%;
+    margin-left: 42%;
+    margin-top: 29%;
+    position: absolute;
+    width: 16%;
+    z-index: 5;
+   } 
+    .cover .text-overMetro{ font-size: 30px;
+    margin-left: -1%;
+    margin-top: -3%;}
+     .cover .text-overRespira{  font-size: 28px;
+ 
+    margin-left: -10%;
+    margin-top: -5%;} 
+     .cover .text-overVive{  font-size: 28px;
+ 
+    margin-left: -2.9%;
+    margin-top: -5%;}      
+     .cover .text-overRecorre{  font-size: 28px;
+    
+    margin-left: -17%;
+    margin-top: -5%;}      
+     .cover .text-overCuscungo{   margin-left: -4%;
+      margin-top: -6%; font-size: 28px;}
+    .cover .text-overArmenia{  font-size: 28px;
+    margin-left: -1.9%;
+    margin-top: -6%;}
+    .cover .text-overSiente{  font-size: 28px;
+    margin-left: -2.9%;
+    margin-top: -5%;}
+   .logo-center{
+     height: 43%;
+    margin-left: 43%;
+    margin-top: -5%;
+    position: absolute;
+    width: 14%;}
+.margin-logo{z-index:-1;}
+.cover .text-overArmenia{
+  
+    margin-top: -8%;
+}
+.cover .text-overCuscungo{
+  
+    margin-top: -8%;
+}
+}
+/* media query  1280 andre */
+
+@media (min-width: 1280px)and (max-width: 1299px)
+{
+ 
+.text-disfrutalos {
+    font-size: 0.9em;
+      margin-left: 41%;
+    margin-top: -8%;
+}
+}
+/* media query  1366 andre */
+
+
+
+
+/* media query  1680 andre */
+
+
+/* media query  1920 andre */
+
 
 .home-widget {
     margin: 0 0 30px;
@@ -8335,13 +9135,6 @@ a img.aligncenter {
     z-index: 9999;
 
 }
-.social {
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-    margin: -45px 35px 0 0;
-}
 .social-red {
     margin: 55% 5% 0 0;
     display: block;
@@ -8369,9 +9162,7 @@ a img.aligncenter {
     float: left;
     transition: background 100ms ease-in 0s;
 }
-.socialLinks img {
-    width: 35px;
-}
+
 
 .fb:hover {
     background-color: #3B5998;
@@ -8420,6 +9211,16 @@ a img.aligncenter {
     .padding-lateral {
         padding: 0 10% 0 10%;
     }
+    .socialLinks img {
+    width: 35px;
+}
+    .social {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: -45px 35px 0 0;
+}
     .logo-center{
         position: absolute;
         z-index: 2;
@@ -8489,7 +9290,7 @@ a img.aligncenter {
 }
 
 /* Landscape phone to portrait tablet */
-@media (max-width: 767px) { 
+@media (min-width: 767px) and (max-width: 800px) { 
     .padding-lateral {
         padding: 0 ;
     }
@@ -8506,7 +9307,7 @@ a img.aligncenter {
 }
 
 /* Landscape phones and down */
-@media (max-width: 480px) { 
+@media (min-width: 480px) and (max-width: 500px) { 
     .padding-lateral {
         padding: 0 ;
     }
@@ -8516,7 +9317,7 @@ a img.aligncenter {
         margin: -3.4% 0 0 41.5%;
     }
     .logo-center-descubre{
-        margin: 18.3% 0 0 35.6%;
+        margin: 25.3% 0 0 44.6%;
         position: absolute;
         z-index: 2;
     }
@@ -8524,11 +9325,6 @@ a img.aligncenter {
 
 }
 
-
-
-.descubre {
-    margin: 50px 0 235px 0;
-}
 
 .text-img{
     margin: -30px 0 0 32px;
@@ -8566,16 +9362,7 @@ a img.aligncenter {
     text-align: justify;
 }
 
-.titulo {
-    font-family: 'chalkdust';
-    font-size: 3em;
-    //color: #31150b;
-    color: #FFFFFF;
-    text-shadow: 1.2px 3.1px 3.0px #000000;
-}
-.titulo-descubre {
-    margin: 0 0 0 25px;
-}
+
 
 .subtitulo {
     font-family: 'myFirstFont';
@@ -8651,14 +9438,12 @@ a img.aligncenter {
     color: red;
 }
 
-.thumbnail-list .text-over-tienes-vivirlo {
-    font-size: 6.0em;
-}
 
 .thumbnail-list h3 {
     font-size: 1.2em;
 }
 
+<<<<<<< HEAD
 .thumbnail-list p {
     //  font-size: 1.6em;
     font-size: 2.4em;
@@ -8667,6 +9452,7 @@ a img.aligncenter {
 .thumbnail-list .trekking {
     font-size: 1.7em;
 }
+
 
 
 .sec2-img1 {
@@ -8699,18 +9485,9 @@ a img.aligncenter {
     margin: 0 0 10% 0;
 }
 
-.fondo-pie{
-    background-color: #fff; 
-    padding: 5px 0 20px 0;
-}    
-
 .parques{
     color: #000000;
     font-size: 1em;
-}
-.tipo{
-    font-family: PT Sans Narrow;
-    font-size: 1.2em;
 }
 
 .text-over{
@@ -8745,13 +9522,9 @@ a img.aligncenter {
     padding: 57.5% 0 0 0;
 }
 
-.margin-logo {
-    margin: 0 0 0 3%;
-}
 
-.margin-logo-page {
-    margin: 0 0 0 2%;
-}
+
+
 
 /*----Estilo Interior de Parques ----*/
 .titulo-interior {
@@ -8781,7 +9554,7 @@ a img.aligncenter {
     margin: 0 0 0 12.4%;
 }
 .col-xs-2.sin-padding.dragon {
-    margin: -4.3% 0 0;
+    margin: -5% 0 0;
 }
 .col-armenia{
     height: 100px;
@@ -8825,14 +9598,16 @@ a img.aligncenter {
 /*---=Estilo de Chaquinan --------*/
 .titulo-chaquinan {
     font-size: 16.6em;
-    margin: -11% -30% 0;
+    margin: -13% -30% 0;
 }
 .slogan-chaquinan { 
     font-size: 2.5em; 
-    margin: 6% 0 0 23.4%;
+   // margin: 2% 0 0 23.4%;
+   margin: 4% 0 0 23.4%;
 }
 .col-xs-2.sin-padding.colibri {
-   margin: -2.3% 0 2.2% 0;
+   // margin: -5% 0 1% 0;
+   margin: -4.2% 0 2.7% 0;
 }
 .col-chaquinan{
     height: 100px;
@@ -8875,14 +9650,14 @@ a img.aligncenter {
 /*---=Estilo de Cuscungo--------*/
 .titulo-cuscungo{
     font-size: 16.6em;
-    margin: -11.9% -22.6% 0;
+    margin: -13% -22.6% 0;
 }
 .slogan-cuscungo { 
     font-size: 2.5em; 
-    margin: 7.4% 0 0 24.6%;
+    margin: 6.0% 0 0 24.6%;
 }
 .col-xs-3.sin-padding.subebaja {
-   margin: -3.6% 0 0.9%;
+   margin: -3.9% 0 1.5%;
 }
 .col-cuscungo{
     height: 100px;
@@ -8918,7 +9693,7 @@ a img.aligncenter {
     width: 55px;
     height: 23px;
     position: absolute;
-    margin: 2.0% 0 0 64.6%;
+    margin: -1.3% 0 0 65%;
 }
 /*--- Fin Estilo de Cuscungo -----*/
 
