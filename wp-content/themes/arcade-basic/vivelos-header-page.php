@@ -1,7 +1,7 @@
 
 <div class="row">
     <div class="row fijo">
-        <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/library/images/vivelos/vivelos-fondo.jpg"> 
+        <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/library/images/vivelos/vivelos-fondo.png"> 
     </div>
 </div>
 <div class="row">

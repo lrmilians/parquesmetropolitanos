@@ -43,7 +43,7 @@
                             <img class="img-responsive img-margin-buho" src="<?php bloginfo('template_url'); ?>/library/images/home/buho.jpg">
                         </div>
                         <div class="col-xs-8 text-disfrutalos">  
-                            <span class="subtitulo descubrelos">Disfrútalos</span>
+                            <span class="subtitulo text-disfrutalos">Disfrútalos</span>
                         </div>
                     </div>
                 </div>
@@ -157,12 +157,12 @@
                         <div class="col-xs-6">
                             <div class="col-xs-3 col-xs-offset-7 sin-padding">
                                 <a href="http://www.epmmop.gob.ec/" target="_blank">
-                                    <img class="img-responsive logo-quito" src="<?php bloginfo('template_url'); ?>/library/images/epmmop.png">
+                                    <img class="img-responsive logo-quito" id="logoFooter" src="<?php bloginfo('template_url'); ?>/library/images/epmmop.png">
                                 </a>
                             </div>
                             <div class="col-xs-2 sin-padding">
                                 <a href="http://www.quito.gob.ec/‎" target="_blank">
-                                    <img class="img-responsive logo-quito" src="<?php bloginfo('template_url'); ?>/library/images/quito.png">
+                                    <img class="img-responsive logo-quito" id="logo1" src="<?php bloginfo('template_url'); ?>/library/images/quito.png">
                                 </a>
                             </div>
                             
