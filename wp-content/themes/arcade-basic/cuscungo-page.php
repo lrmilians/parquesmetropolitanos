@@ -73,21 +73,17 @@
         </div>
     </div> 
     <div class="col-xs-12 sin-padding">
-        <div class="col-xs-6 sin-padding">
-            <span class="text-img text-img-llinllin">Gorrión</span>
-            <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/library/images/cuscungo/seccion5-img5.jpg">
-        </div>
-        <div class="col-xs-6 sin-padding">
-            <span class="text-img text-img-maihua">Maihua Orquidea</span>
+        
+        <div class="col-xs-4 sin-padding">
+            <span class="text-img text-img-llinllin">Maihua Orquidea</span>
             <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/library/images/cuscungo/seccion5-img6.jpg">
         </div>
-    </div> 
-    <div class="col-xs-12 sin-padding">
-        <div class="col-xs-6 sin-padding">
+    
+        <div class="col-xs-4 sin-padding">
             <span class="text-img text-img-llinllin">Chocho Rumipamba</span>
             <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/library/images/cuscungo/seccion5-img7.jpg">
         </div>
-        <div class="col-xs-6 sin-padding">
+        <div class="col-xs-4 sin-padding">
             <span class="text-img text-img-tocte">Tocte Djal</span>
             <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/library/images/cuscungo/seccion5-img8.jpg">
         </div>

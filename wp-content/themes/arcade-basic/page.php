@@ -23,6 +23,17 @@
         <link rel="icon" type="image/png" href="<?php bloginfo('template_url'); ?>/library/images/icono.png"/> 
         <!--[if IE]><script src="<?php echo BAVOTASAN_THEME_URL; ?>/library/js/html5.js"></script><![endif]-->
         <?php wp_head(); ?>
+        
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+        <!--[if lt IE 9]>
+          <script type="text/javascript" src="../js/excanvas/excanvas.js"></script>
+        <![endif]-->
+        <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/library/lightview/js/spinners/spinners.min.js"></script>
+        <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/library/lightview/js/lightview/lightview.js"></script>
+        <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/library/lightview/css/lightview/lightview.css" />
+        <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/library/lightview/example/css/style.css" />
+        <meta name="robots" content="noindex,nofollow" >
     </head>
     <?php
     $bavotasan_theme_options = bavotasan_theme_options();
@@ -106,7 +117,25 @@
                        load_template( ABSPATH . WPINC . '/theme-compat/cuscungo-page.php');
 
                     if ('' == locate_template('footer-page.php', true))
-                       load_template( ABSPATH . WPINC . '/theme-compat/footer-page.php');            
+                       load_template( ABSPATH . WPINC . '/theme-compat/footer-page.php');    
+             } elseif ((get_the_ID() == 42) || (get_the_ID() == 41)) { 
+                    if ('' == locate_template('metrosur-header-page.php', true))
+                        load_template( ABSPATH . WPINC . '/theme-compat/metrosur-header-page.php');
+                
+                    if ('' == locate_template('metrosur-page.php', true))
+                       load_template( ABSPATH . WPINC . '/theme-compat/metrosur-page.php');
+
+                    if ('' == locate_template('footer-page.php', true))
+                       load_template( ABSPATH . WPINC . '/theme-compat/footer-page.php');   
+            } elseif ((get_the_ID() == 23) || (get_the_ID() == 41)) { 
+                 if ('' == locate_template('contacto-header-page.php', true))
+                     load_template( ABSPATH . WPINC . '/theme-compat/contacto-header-page.php');
+
+                 if ('' == locate_template('contacto-page.php', true))
+                    load_template( ABSPATH . WPINC . '/theme-compat/contacto-page.php');
+
+                 if ('' == locate_template('footer-page.php', true))
+                    load_template( ABSPATH . WPINC . '/theme-compat/footer-page.php');        
             } else { ?>
 
 

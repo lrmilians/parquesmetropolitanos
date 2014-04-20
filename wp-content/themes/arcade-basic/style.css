@@ -4122,8 +4122,6 @@ textarea.input-group-sm > .input-group-btn > .comment-reply-link,
     background-color: transparent;
     border: 1px solid transparent;
     border-radius: 4px;
-   
-   
 }
 
 .navbar-toggle .icon-bar {
@@ -7214,7 +7212,6 @@ input, textarea {
     background-color: transparent;
     margin-bottom: 0;
     text-align: center;
-  
 }
 .home-jumbotron:before, .home-jumbotron:after {
     width: 50%;
@@ -7223,14 +7220,13 @@ input, textarea {
     display: block;
     height: 20px;
     border-top: 5px solid #eee;
-   
 }
 .home-jumbotron:after {
     width: 40%;
     margin-left: 30%;
     height: 30px;
     border: 0;
-    border-bottom: 3px solid #eee;  
+    border-bottom: 3px solid #eee;
 }
 .home-jumbotron h1 {
     font-size: 40px;
@@ -7245,7 +7241,6 @@ input, textarea {
 .form-submit .home-jumbotron #submit {
     margin-top: 10px;
     padding: 10px 25px;
-   
 }
 
 /* =Home Widgets
@@ -7253,272 +7248,18 @@ input, textarea {
 #home-page-widgets {
     padding: 60px 0 40px;
     background: #F7F7F7;
-    
-    
-    
 }
-
-/* media query  320 andre */
-@media (max-width: 320px){
-.social .img-responsive{      
- 
-     margin-top: 45%;
-   
+@media (max-width: 768px) {
+    #home-page-widgets {
+        margin: 0;
     }
-     .socialLinks{
-  margin-left: -1%;
-    margin-top: -5%;
 }
-    .cover .text-overMetro{  font-size: 18px;
-    margin-left: -10%;
-    margin-top: -5%;}
-    .cover .text-overRespira{  font-size: 18px;
-    margin-left: -10%;
-    margin-top: -5%;} 
-     .cover .text-overVive{  font-size: 18px;
-    margin-left: -17%;
-    margin-top: -5%;}      
-     .cover .text-overRecorre{  font-size: 18px;
-    margin-left: -17%;
-    margin-top: -5%;}      
-     .cover .text-overCuscungo{   margin-left: -4%;
-    margin-top: -10%; font-size: 18px;}
-    .cover .text-overArmenia{  margin-left: -19%;
-    margin-top: -10%; font-size: 18px;}
-    .cover .text-overSiente{  margin-left: -19%;
-    margin-top: -10%; font-size: 18px;}
-   .text-disfrutalos{margin-top: 4%;font-size: 6px;}
-   .text-overTienes{margin-top: -6.9%;font-size: 6px;}
-    .text-vivelo{margin-top: 1%;font-size: 6px;}
-    .descrube{margin-top: 1%;font-size: 6px;}
-    .logo-center{
-    height: 42%;
-    margin-left: 45%;
-    margin-top: 45%;
-    width: 14%;}
-   .img-margin-adita{   
-   margin-top: 10%;
-    width: 62%;} 
-    .img-margin-buho{   
-   margin-top: 10%;
-    width: 62%;}    
-   .logo-centerParques .logo-center-sec3{   
- float: left;
-    height: 10%;
-    margin-left: 42%;
-    margin-top: 26%;
-    position: absolute;
-    width: 17%;
-    z-index: 5;
-   } 
-
-   
-}
-
-/* media query  360 andre */
-@media (max-width: 360px){
-.social .img-responsive{      
- 
-     margin-top: 45%;
-   
-    }
-     .socialLinks{
-      margin-left: -8%;
-    margin-top: 18%;
-}      
-    .cover .text-overMetro{  font-size: 18px;
-    margin-left: -10%;
-    margin-top: -5%;}
-    .cover .text-overRespira{  font-size: 18px;
-    margin-left: -10%;
-    margin-top: -5%;} 
-     .cover .text-overVive{  font-size: 18px;
-    margin-left: -17%;
-    margin-top: -5%;}      
-     .cover .text-overRecorre{  font-size: 18px;
-    margin-left: -17%;
-    margin-top: -5%;}      
-     .cover .text-overCuscungo{   margin-left: -4%;
-    margin-top: -10%; font-size: 18px;}
-    .cover .text-overArmenia{  margin-left: -19%;
-    margin-top: -10%; font-size: 18px;}
-    .cover .text-overSiente{  margin-left: -19%;
-    margin-top: -10%; font-size: 18px;}
-   .text-disfrutalos{margin-top:5%;font-size: 6px;}
-    .text-vivelo{margin-top: 1%;font-size: 6px;}
-    .text-overTienes{margin-top: -6.9%;font-size: 6px;}
-    .descrube{margin-top: 1%;font-size: 6px;}
-    .logo-center{
-    height: 42%;
-    margin-left: 45%;
-    margin-top: 45%;
-    width: 14%;}
-   .img-margin-adita{   
-   margin-top: 10%;
-    width: 62%;} 
-    .img-margin-buho{   
-   margin-top: 10%;
-    width: 62%;}    
-   .logo-centerParques .logo-center-sec3{   
- float: left;
-    height: 10%;
-    margin-left: 42%;
-    margin-top: 26%;
-    position: absolute;
-    width: 17%;
-    z-index: 5;
-   } 
-}
-/* media query  480 andre */
-@media (min-width: 480px)and (max-width: 500px){
-.social .img-responsive{      
- 
-     margin-top: 45%;
-   
-    } 
-    .cover .text-overMetro{ font-size: 18px;
-    margin-left: -6%;
-    margin-top: -3%;}
-     .cover .text-overRespira{  font-size: 18px;
-    margin-left: -10%;
-    margin-top: -5%;} 
-     .cover .text-overVive{  font-size: 18px;
-    margin-left: -13%;
-    margin-top: -5%;}      
-     .cover .text-overRecorre{  font-size: 18px;
-    margin-left: -17%;
-    margin-top: -5%;}      
-     .cover .text-overCuscungo{   margin-left: -4%;
-      margin-top: -6%; font-size: 18px;}
-    .cover .text-overArmenia{  font-size: 18px;
-    margin-left: -11%;
-    margin-top: -6%;}
-    .cover .text-overSiente{  font-size: 18px;
-    margin-left: -13%;
-    margin-top: -5%;}
-    
-    .text-vivelo{font-size: 8px;
-    margin-top: 4%;}
-    .text-overTienes{margin-top: -6.9%;font-size: 6px;}
-    .descrube{margin-top: 1%;font-size: 6px;}
-    .logo-center{
-    height: 42%;
-    margin-left: 45%;
-    margin-top: 45c%;
-    width: 14%;}
-   .img-margin-adita{   
-   margin-top: 10%;
-    width: 62%;}
-   .text-disfrutalos {
-    font-size: 6px;
-    margin-top: 5%;
-}
-  .img-margin-buho{   
-   margin-top: 10%;
-    width: 62%;}    
-   .logo-centerParques .logo-center-sec3{   
- float: left;
-    height: 13%;
-    margin-left: 42%;
-    margin-top: 28%;
-    position: absolute;
-    width: 17%;
-    z-index: 5;
-   } 
-   .socialLinks{
-  margin-left: -1%;
-    margin-top: -5%;
-}
-}
-/* media query  640 andre */
-
-
-/* media query  720 andre */
-
-
-
-/* media query  768 andre */
-@media (min-width: 768px) and (max-width: 800px){
-.text-overMetro{      
- 
-     margin-top: -2%;
-   
-    }
- .text-overArmenia
- {      
- 
-     margin-top: -2%;
-   
-    }
-    .cover .text-overCuscungo{      
- 
-     margin-top: -2%;
-   
-    }
- .logo-centerParques .logo-center-sec3
-          
- {
-   margin-top: 29%;
-    position: absolute;
-    z-index: 5;
-    margin-left: 43%;
-   
-    }
-   .cover .text-overSiente{
-    margin-left: -5%;
-    margin-top: -4%;
-   
-    }
-    .cover .text-overVive{
-    margin-left: -5%;
-    margin-top: -4%;
-   
-    }
-   .cover .text-overRespira{
-    margin-left: -5%;
-    margin-top: -4%;
-   
-    }
-    .cover .text-overRecorre
-    {
-    margin-left: -5%;
-    margin-top: -4%;
-   
-    }
-    .text-overTienes
-    {
-    margin-left: -5%;
-    margin-top: -4%;
-   
-    }
- }
-
-
-/* media query  1024 andre */
-
-
-/* media query  1280 andre */
-
-
-/* media query  1366 andre */
-
-
-
-
-/* media query  1680 andre */
-
-
-/* media query  1920 andre */
-
 
 .home-widget {
     margin: 0 0 30px;
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
-   
-    
-    
 }
 .home-widget img {
     margin-top: 0;
@@ -7708,7 +7449,6 @@ article .time {
     font-size: 21px;
     line-height: 1.4;
     font-weight: bold;
-    
 }
 .pullquote.alignright {
     margin: 1em 0 1em 1.625em;
@@ -8678,7 +8418,7 @@ a img.aligncenter {
 
 @media (min-width: 1200px) { 
     .padding-lateral {
-        padding: 0 2% 0 2%;
+        padding: 0 10% 0 10%;
     }
     .logo-center{
         position: absolute;
@@ -8691,7 +8431,7 @@ a img.aligncenter {
         margin: 30.2% 0 0 46.0%;
     }
     .logo-center-descubre{
-        margin: 27.3% 0 0 44.3%;
+        margin: 22.5% 0 0 36.6%;
         position: absolute;
         z-index: 2;
     }
@@ -8922,6 +8662,10 @@ a img.aligncenter {
 .thumbnail-list p {
     //  font-size: 1.6em;
     font-size: 2.4em;
+    margin: 0 5% 0 5%;
+}
+.thumbnail-list .trekking {
+    font-size: 1.7em;
 }
 
 
@@ -8952,7 +8696,7 @@ a img.aligncenter {
 }
 
 .descubre-padding {
-    margin: 0 0 55px 0;
+    margin: 0 0 10% 0;
 }
 
 .fondo-pie{
@@ -8996,6 +8740,9 @@ a img.aligncenter {
 }
 .vivelos-cover{
     padding: 55% 0 0 0;
+}
+.vivelos-cover-trekking {
+    padding: 57.5% 0 0 0;
 }
 
 .margin-logo {
@@ -9061,7 +8808,7 @@ a img.aligncenter {
 }
 
 .padding-seccion3 {
-    padding: 10% 5%;
+    padding: 10% 10%;
 }
 .padding-seccion4 {
     padding: 10% 5%;
@@ -9163,7 +8910,7 @@ a img.aligncenter {
      font-size: 2.4em;
 }
 .text-img-tocte {  
-    margin: 2% 0 0 82%;
+    margin: 2% 0 0 68%;
      font-size: 2.4em;
 }
 .tilde {
@@ -9175,5 +8922,56 @@ a img.aligncenter {
 }
 /*--- Fin Estilo de Cuscungo -----*/
 
+/*---=Estilo de Metrosur--------*/
+.titulo-metrosur {
+    font-size: 16.6em;
+    margin: -7.9% -22.6% 0;
+}
+.slogan-metrosur { 
+    font-size: 2.5em; 
+    margin: 8.2% 0 0 15.5%;
+}
+.col-xs-2.sin-padding.metrosur {
+   margin: -4.6% 0 3.8%;
+}
+.col-metrosur{
+    height: 100px;
+}
+.metrosur-seccion2 {
+    background: url("library/images/metrosur/seccion2-fondo.jpg");
+    width: 100%;
+    max-height: 950px;
+}
+.metrosur-seccion3 {
+    background: url("library/images/metrosur/seccion3-fondo.jpg");
+    width: 100%;
+    max-height: 800px;
+}
+.text-img-pajaro-amarillo{  
+    margin: 2% 0 0 69%;
+    font-size: 2.4em;
+}
+.text-img-lagartija {  
+    margin: 2% 0 0 62%;
+     font-size: 2.4em;
+}
+.text-img-maihua {  
+    margin: 2% 0 0 77%;
+     font-size: 2.4em;
+}
+.text-img-tocte {  
+    margin: 2% 0 0 68%;
+     font-size: 2.4em;
+}
+/*--- Fin Estilo de Metrosur -----*/
 
+/*---- Contacto --------*/
+.text-label-contacto {
+    font-family: 'PT Sans Narrow';
+    font-size: 1.5em;
+}
+.text-telefonos {
+    padding:  0 0 2% 5%;
+}
+/*---- Fin Contacto ----*/
 

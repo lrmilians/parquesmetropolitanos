@@ -1,4 +1,3 @@
-
 <?php
 /**
  * The Header for our theme.
@@ -54,7 +53,7 @@
                                 <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/library/images/home/home-page-seccion2-img1.jpg">
                                 <div class="cover sec2-img1">
                                    <!-- <h3>Title</h3>-->
-                                   <p class="text-over text-overMetro">Metro Sur</p>
+                                   <p class="text-over">Metro Sur</p>
                                 </div>
                             </a>
                         </div>
@@ -62,7 +61,7 @@
                             <a href="#" class="image-w">
                                 <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/library/images/home/home-page-seccion2-img2.jpg">
                                 <div class="cover sec2-img2">
-                                    <p class="text-over text-overArmenia">Armenia</p>
+                                    <p class="text-over">Armenia</p>
                                 </div>
                             </a>
                         </div>
@@ -70,7 +69,7 @@
                             <a href="#" class="image-w">
                                 <img class="img-responsive"  src="<?php bloginfo('template_url'); ?>/library/images/home/home-page-seccion2-img3.jpg">
                                 <div class="cover sec2-img3">
-                                    <p class="text-over text-right text-over-right text-overCuscungo">Cuscungo</p>
+                                    <p class="text-over text-right text-over-right">Cuscungo</p>
                                 </div>
                             </a> 
                         </div>
@@ -79,7 +78,7 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-12 sin-padding">
-                        <div class="col-xs-8 text-vivelo">  
+                        <div class="col-xs-8">  
                             <span class="subtitulo vivelos">Vívelos</span>
                         </div>
                         <div class="col-xs-4">  
@@ -87,14 +86,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="row logo-centerParques thumbnail-list">
-                    <img class="img-responsive logo-center-sec3" src="<?php bloginfo('template_url'); ?>/library/images/home/logo-seccion-3-home.png">
+                <div class="row thumbnail-list">
                     <div class="col-xs-12 sin-padding">
                         <div class="col-xs-6 sin-padding">
                             <a href="#" class="image-w">
                                 <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/library/images/home/home-page-seccion3-img1.jpg">
                                 <div class="cover sec3-img1">
-                                    <p class="text-over text-overSiente">Siente</p>
+                                    <p class="text-over">Siente</p>
                                 </div>
                             </a>
                         </div>
@@ -102,19 +100,18 @@
                             <a href="#" class="image-w">
                                 <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/library/images/home/home-page-seccion3-img2.jpg">
                                 <div class="cover sec3-img2">
-                                    <p class="text-over text-right text-over-right text-overRespira">Respira</p>
+                                    <p class="text-over text-right text-over-right">Respira</p>
                                 </div>
                             </a>
                         </div>
-                        
                     </div> 
-                     
+                     <img class="img-responsive logo-center-sec3" src="<?php bloginfo('template_url'); ?>/library/images/home/logo-seccion-3-home.png">
                     <div class="col-xs-12 sin-padding">
                         <div class="col-xs-6 sin-padding">
                             <a href="#" class="image-w">
                                 <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/library/images/home/home-page-seccion3-img3.jpg">
                                 <div class="cover sec3-img3">
-                                    <p class="text-over text-overVive">Vive</p>
+                                    <p class="text-over">Vive</p>
                                 </div>
                             </a>
                         </div>
@@ -122,7 +119,7 @@
                             <a href="#" class="image-w">
                                 <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/library/images/home/home-page-seccion3-img4.jpg">
                                 <div class="cover sec3-img4">
-                                    <p class="text-over text-right text-over-right text-overRecorre">Recorre</p>
+                                    <p class="text-over text-right text-over-right">Recorre</p>
                                 </div>
                             </a>   
                         </div>
@@ -134,17 +131,17 @@
                         <div class="col-xs-4">  
                             <img class="img-responsive img-margin-colibri" src="<?php bloginfo('template_url'); ?>/library/images/home/colibri.png">
                         </div>
-                        <div class="col-xs-8 descrube">  
+                        <div class="col-xs-8">  
                             <span class="subtitulo descubrelos">Descúbrelos</span>
                         </div>
                     </div>
                 </div>   
-                <div class="row  text-overTienes thumbnail-list">
+                <div class="row thumbnail-list">
                     <div class="col-xs-12 sin-padding">
                         <a href="#" class="image-w">
                                 <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/library/images/home/home-page-seccion4-img1.jpg">
                                 <div class="sec4-img1 cover">
-                                    <p class="text-over-tienes-vivirlo text-overTienes">Tienes que vivirlo</p>
+                                    <p class="text-over-tienes-vivirlo">Tienes que vivirlo</p>
                                 </div>
                             </a>
                     </div>

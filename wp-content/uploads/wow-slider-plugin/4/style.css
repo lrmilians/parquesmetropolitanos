@@ -110,8 +110,8 @@
 	top:50%;
 	margin-top:-2.1em;
 	z-index:60;
-	height: 3.2em;
-	width: 3.2em;
+	height: 6.4em;
+	width: 6.4em;
 	background-image: url(./arrows.png);
 	background-size: 200%;
 }
@@ -137,8 +137,8 @@
 /*playpause*/
 #wowslider-container4 .ws_playpause {
 	display:none;
-    width: 3.2em;
-    height: 3.2em;
+    width: 6.4em;
+    height: 6.4em;
     position: absolute;
     top: 50%;
     left: 50%;
