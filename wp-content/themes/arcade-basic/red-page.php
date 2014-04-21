@@ -1,7 +1,7 @@
 
 <div class="row">
     <div class="col-xs-12 margen-top-slider sin-padding">
-        <?php wowslider(4); ?>
+        <?php wowslider(5); ?>
     </div>   
 </div>
 <div class="row">
