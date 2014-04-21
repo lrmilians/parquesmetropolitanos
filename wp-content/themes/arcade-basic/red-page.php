@@ -1,7 +1,7 @@
 
 <div class="row">
     <div class="col-xs-12 margen-top-slider sin-padding">
-        <?php wowslider(5); ?>
+        <?php wowslider(4); ?>
     </div>   
 </div>
 <div class="row">
@@ -52,6 +52,6 @@
 </div>
 <div class="row">
     <div class="col-xs-12 sin-padding">
-        <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/library/images/red/red-mapa.jpg">
+    <iframe width="100%" height="900" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.ec/maps/ms?msa=0&amp;msid=216196959495803771490.0004f780b146c1e028ecc&amp;hl=es&amp;ie=UTF8&amp;t=m&amp;ll=-0.179214,-78.475685&amp;spn=0.308989,0.445976&amp;z=12&amp;output=embed"></iframe><br /><small>Ver <a href="https://maps.google.com.ec/maps/ms?msa=0&amp;msid=216196959495803771490.0004f780b146c1e028ecc&amp;hl=es&amp;ie=UTF8&amp;t=m&amp;ll=-0.179214,-78.475685&amp;spn=0.308989,0.445976&amp;z=12&amp;source=embed" style="color:#0000FF;text-align:left">Parques Metropolitanos</a> en un mapa más grande</small>
     </div>
 </div>

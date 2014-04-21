@@ -58,7 +58,7 @@
         </div>
         <div class="row">
             <div id="logo" class="col-xs-3 margin-logo-page"> 
-                <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/library/images/home/logo.png">
+                <a href="<?php bloginfo('url'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/library/images/home/logo.png"></a>
             </div>
         </div>
         <div class="row">
@@ -127,15 +127,15 @@
 
                     if ('' == locate_template('footer-page.php', true))
                        load_template( ABSPATH . WPINC . '/theme-compat/footer-page.php');   
-            } elseif ((get_the_ID() == 23) || (get_the_ID() == 41)) { 
+            } elseif ((get_the_ID() == 23) || (get_the_ID() == 45)) { 
                  if ('' == locate_template('contacto-header-page.php', true))
                      load_template( ABSPATH . WPINC . '/theme-compat/contacto-header-page.php');
-
+                 
                  if ('' == locate_template('contacto-page.php', true))
                     load_template( ABSPATH . WPINC . '/theme-compat/contacto-page.php');
 
                  if ('' == locate_template('footer-page.php', true))
-                    load_template( ABSPATH . WPINC . '/theme-compat/footer-page.php');        
+                    load_template( ABSPATH . WPINC . '/theme-compat/footer-page.php');      
             } else { ?>
 
 
@@ -147,7 +147,7 @@
                                 ?>
                                 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                                     <h1 class="entry-title"><?php the_title(); ?></h1>
-                                    <?php echo the_ID(); ?>
+                                    
                                     <div class="entry-content description clearfix">
                                         <?php the_content(__('Read more', 'arcade')); ?>
                                     </div><!-- .entry-content -->

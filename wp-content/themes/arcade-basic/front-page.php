@@ -12,21 +12,25 @@
 <!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" <?php language_attributes(); ?>><![endif]-->
 <!--[if IE 8]><html class="no-js lt-ie9" <?php language_attributes(); ?>><![endif]-->
 <!--[if gt IE 8]><!--><html class="no-js" <?php language_attributes(); ?>><!--<![endif]-->
-<head>
-<meta charset="<?php bloginfo( 'charset' ); ?>" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title><?php wp_title( '|', true, 'right' ); ?></title>
-<link rel="profile" href="http://gmpg.org/xfn/11" />
-<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-<script src="<?php echo BAVOTASAN_THEME_URL; ?>/library/js/bootstrap.js"></script>
-<!--[if IE]><script src="<?php echo BAVOTASAN_THEME_URL; ?>/library/js/html5.js"></script><![endif]-->
-<?php wp_head(); ?>
-</head>
-<?php
-$bavotasan_theme_options = bavotasan_theme_options();
-$space_class = '';
-?>
+    <head>
+        <meta charset="<?php bloginfo('charset'); ?>" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+        <title><?php wp_title('|', true, 'right'); ?></title>
+        <link rel="profile" href="http://gmpg.org/xfn/11" />
+       
+        <link rel="icon" type="image/png" href="<?php bloginfo('template_url'); ?>/library/images/icono.png"/> 
+          
+        <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+       <!-- <link href="//fonts.googleapis.com/css?family=PT+Sans Narrow:400,700" rel="stylesheet" type="text/css">-->
+        <!--[if IE]><script src="<?php echo BAVOTASAN_THEME_URL; ?>/library/js/html5.js"></script><![endif]-->
+        <?php wp_head(); ?>
+    </head>
+    <?php
+    $bavotasan_theme_options = bavotasan_theme_options();
+    $space_class = '';
+    ?>
     <body>
         <div id="main-container">
             <?php get_header(); ?>

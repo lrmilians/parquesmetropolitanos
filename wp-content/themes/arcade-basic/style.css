@@ -23,7 +23,7 @@ Arcade is distributed under the terms of the GNU GPL
  * Designed and built with all the love in the world by @mdo and @fat.
  *
  * Glyphicon CSS removed by c.bavota
-*/
+ */
 /*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 //Titulos
 //Contenido general.
@@ -5025,42 +5025,42 @@ a.thumbnail.active {
 
 @-webkit-keyframes progress-bar-stripes {
     from {
-    background-position: 40px 0;
-}
+        background-position: 40px 0;
+    }
 
-to {
-    background-position: 0 0;
-}
+    to {
+        background-position: 0 0;
+    }
 }
 
 @-moz-keyframes progress-bar-stripes {
     from {
-    background-position: 40px 0;
-}
+        background-position: 40px 0;
+    }
 
-to {
-    background-position: 0 0;
-}
+    to {
+        background-position: 0 0;
+    }
 }
 
 @-o-keyframes progress-bar-stripes {
     from {
-    background-position: 0 0;
-}
+        background-position: 0 0;
+    }
 
-to {
-    background-position: 40px 0;
-}
+    to {
+        background-position: 40px 0;
+    }
 }
 
 @keyframes progress-bar-stripes {
     from {
-    background-position: 40px 0;
-}
+        background-position: 40px 0;
+    }
 
-to {
-    background-position: 0 0;
-}
+    to {
+        background-position: 0 0;
+    }
 }
 
 .progress {
@@ -6921,50 +6921,50 @@ input, textarea {
 
 @-webkit-keyframes dropHeader {
     0% {
-    top: -40px;
-    opacity: 0;
-}
+        top: -40px;
+        opacity: 0;
+    }
 
-100% {
-    top: 0;
-    opacity: 1;
-}
+    100% {
+        top: 0;
+        opacity: 1;
+    }
 }
 
 @-moz-keyframes dropHeader {
     0% {
-    top: -40px;
-    opacity: 0;
-}
+        top: -40px;
+        opacity: 0;
+    }
 
-100% {
-    top: 0;
-    opacity: 1;
-}
+    100% {
+        top: 0;
+        opacity: 1;
+    }
 }
 
 @-o-keyframes dropHeader {
     0% {
-    top: -40px;
-    opacity: 0;
-}
+        top: -40px;
+        opacity: 0;
+    }
 
-100% {
-    top: 0;
-    opacity: 1;
-}
+    100% {
+        top: 0;
+        opacity: 1;
+    }
 }
 
 @keyframes dropHeader {
     0% {
-    top: -40px;
-    opacity: 0;
-}
+        top: -40px;
+        opacity: 0;
+    }
 
-100% {
-    top: 0;
-    opacity: 1;
-}
+    100% {
+        top: 0;
+        opacity: 1;
+    }
 }
 
 #site-description {
@@ -7016,70 +7016,70 @@ input, textarea {
 
 @-webkit-keyframes fadeHeader {
     0% {
-    top: 20px;
-    opacity: 0;
-}
+        top: 20px;
+        opacity: 0;
+    }
 
-50% {
-    top: 20px;
-    opacity: 0;
-}
+    50% {
+        top: 20px;
+        opacity: 0;
+    }
 
-100% {
-    top: 0;
-    opacity: 1;
-}
+    100% {
+        top: 0;
+        opacity: 1;
+    }
 }
 
 @-moz-keyframes fadeHeader {
     0% {
-    top: 20px;
-    opacity: 0;
-}
+        top: 20px;
+        opacity: 0;
+    }
 
-50% {
-    top: 20px;
-    opacity: 0;
-}
+    50% {
+        top: 20px;
+        opacity: 0;
+    }
 
-100% {
-    top: 0;
-    opacity: 1;
-}
+    100% {
+        top: 0;
+        opacity: 1;
+    }
 }
 
 @-o-keyframes fadeHeader {
     0% {
-    top: 20px;
-    opacity: 0;
-}
+        top: 20px;
+        opacity: 0;
+    }
 
-50% {
-    top: 20px;
-    opacity: 0;
-}
+    50% {
+        top: 20px;
+        opacity: 0;
+    }
 
-100% {
-    top: 0;
-    opacity: 1;
-}
+    100% {
+        top: 0;
+        opacity: 1;
+    }
 }
 
 @keyframes fadeHeader {
     0% {
-    top: 20px;
-    opacity: 0;
-}
+        top: 20px;
+        opacity: 0;
+    }
 
-50% {
-    top: 20px;
-    opacity: 0;
-}
+    50% {
+        top: 20px;
+        opacity: 0;
+    }
 
-100% {
-    top: 0;
-    opacity: 1;
-}
+    100% {
+        top: 0;
+        opacity: 1;
+    }
 }
 
 .header-img {
@@ -7271,7 +7271,9 @@ input, textarea {
     margin-top: 10px;
     padding: 10px 25px;
 }
-
+    
+    
+    
 /* =Home Widgets
 -------------------------------------------------------------- */
 #home-page-widgets {
@@ -7308,9 +7310,9 @@ input, textarea {
     }
     .thumbnail-list p {
 
-        font-size: 2.4em;
-        margin: -9% 5%;
-
+        font-size: 2.6em;
+        margin-left: -2%;
+        margin-top: -12%;
     }
     .titulo {
         font-family: 'chalkdust';
@@ -7336,20 +7338,16 @@ input, textarea {
         margin-top: 45%;
 
     }
-    .margin-logo{
-        margin-top: -11%;
-        width: 20%;
-    }
 
     .descubre {
-        margin: -19px 0 8px 0;
+        margin: 50px 0 8px 0;
     }
     .socialLinks{
         margin-left: -1%;
         margin-top: -5%;
     }
-    .cover .text-over{  font-size: 13px;
-                        margin-left: -9%;
+    .cover .text-over{  font-size: 9px;
+                        margin-left: -25%;
                         margin-top: -5%;}
     .cover .text-overMetro{  font-size: 18px;
                              margin-left: -10%;
@@ -7384,7 +7382,7 @@ input, textarea {
     .img-margin-buho{   
         margin-top: 10%;
         width: 62%;}    
-    .logo-center-sec3{   
+    .logo-centerParques .logo-center-sec3{   
         float: left;
         height: 9%;
         margin-left: 42%;
@@ -7392,28 +7390,9 @@ input, textarea {
         position: absolute;
         width: 17%;
         z-index: 5;
-    }
-    .subtitulo {
-        color: #31150B;
-        font-family: 'myFirstFont';
-        font-size: 4.2em;
-        font-weight: normal;
-        padding: -5px 0 0;
-    }
-    .descubrelos {
-        float: right;
-        font-size:1.8em;
-        margin-top:11%;
-    }
-    .disfrutalos {
-        float: right;
+    } 
 
-    }
-    .vivelos {
-        float: left;
-        font-size:2em;
-        margin-top:12%;
-    }
+
 }
 
 /* media query  480 andre */
@@ -7424,15 +7403,8 @@ input, textarea {
         width: 10%;
     }
     .margin-logo{
-        margin-top: -11%;
-        width: 20%;
+        width: 18%;
     }
-    .logo-center{
-        height: 41%;
-        margin-left: 43%;
-        margin-top: -5%;
-        position: absolute;
-        width: 13%;}
     .margin-logo-page {
         width: 19.8%;
     }
@@ -7441,11 +7413,10 @@ input, textarea {
     }
     .thumbnail-list p {
 
-         font-size: 1.2em;
+        font-size: 1.2em;
         margin-left: -1%;
-        margin-top: -4%;
+        margin-top: -12%;
     }
-    .cover .text-over-tienes-vivirlo{font-size:3.4em;}
     .navbar-nav > li > a {
         margin-top: 2%;
         padding-bottom: 0;
@@ -7463,27 +7434,6 @@ input, textarea {
         color: #FFFFFF;
         text-shadow: 1.2px 3.1px 3.0px #000000;
     }
-    .subtitulo {
-        color: #31150B;
-        font-family: 'myFirstFont';
-        font-size: 4.2em;
-        font-weight: normal;
-        padding: -5px 0 0;
-    }
-    .descubrelos {
-        float: right;
-        font-size:1.8em;
-        margin-top:15%;
-    }
-    .disfrutalos {
-        float: right;
-
-    }
-    .vivelos {
-        float: left;
-        font-size:2em;
-        margin-top:12%;
-    }
     .titulo-descubre{ font-size: 1.4em;
                       margin-left: 1%;
 
@@ -7498,7 +7448,7 @@ input, textarea {
         position: absolute;
         right: 0;
         top: 0;
-        margin: -25px 2px 16px -3px;
+        margin: -9px 2px 16px -3px;
     }
     .socialLinks img {
         width: 27px;
@@ -7527,7 +7477,12 @@ input, textarea {
     .text-vivelo{font-size: 8px;
                  margin-top: 4%;}
     .text-overTienes{margin-left: -6.9%;font-size: 50px;}
-    .descrube{margin-top: 1%;font-size: 6px;}   
+    .descrube{margin-top: 1%;font-size: 6px;}
+    .logo-center{
+        height: 42%;
+        margin-left: 45%;
+        margin-top: 45%;
+        width: 14%;}
     .img-margin-adita{   
         margin-top: 10%;
         width: 62%;}
@@ -7539,13 +7494,13 @@ input, textarea {
     .img-margin-buho{   
         margin-top: 10%;
         width: 62%;}    
-    .logo-center-sec3{   
+    .logo-centerParques .logo-center-sec3{   
         float: left;
-        height: 11.9%;
+        height: 6.9%;
         margin-left: 42%;
         margin-top: 28%;
         position: absolute;
-        width: 16%;
+        width: 17%;
         z-index: 5;
     } 
     .tipo{font-size:0.5em;margin-top:-4%;}
@@ -7565,32 +7520,25 @@ input, textarea {
         width: 10%;
     }
     .margin-logo{
-        margin-top: -7%;
-    width: 16%;
+        width: 18%;
     }
-    .logo-center{
-        height: 41%;
-        margin-left: 43%;
-        margin-top: -5%;
-        position: absolute;
-        width: 13%;}
     .margin-logo-page {
-        width: 19.8%;
+        width: 14%;
     }
     .socialLinks img {
         width: 27px;
     }
     .thumbnail-list p {
-        font-size: 2.2em;
-    margin-left: -1%;
-    margin-top: -7%;
+
+        font-size: 1.2em;
+        margin-left: -1%;
+        margin-top: -12%;
     }
-   .cover .text-over-tienes-vivirlo{font-size: 5.2em;}
     .navbar-nav > li > a {
-        margin-top: 2%;
-        padding-bottom: 0;
-        padding-top: 7px;
-        font-size:1em;
+        font-size: 0.8em;
+        margin-top: 5%;
+        padding-bottom: 1px;
+        line-height: 0;
     }
     .descrubelos {
         font-size: 7px;
@@ -7602,27 +7550,6 @@ input, textarea {
         //color: #31150b;
         color: #FFFFFF;
         text-shadow: 1.2px 3.1px 3.0px #000000;
-    }
-    .subtitulo {
-        color: #31150B;
-        font-family: 'myFirstFont';
-        font-size: 6.2em;
-        font-weight: normal;
-        padding: -5px 0 0;
-    }
-    .descubrelos {
-        float: right;
-        font-size: 2.8em;
-        margin-top: 11%;
-    }
-    .disfrutalos {
-        float: right;
-
-    }
-    .vivelos {
-        float: left;
-        font-size: 3em;
-        margin-top: 15%;
     }
     .titulo-descubre{ font-size: 1.4em;
                       margin-left: 1%;
@@ -7638,7 +7565,7 @@ input, textarea {
         position: absolute;
         right: 0;
         top: 0;
-        margin: -25px 2px 16px -3px;
+        margin: 3px 15px  16px -3px;
     }
     .socialLinks img {
         width: 27px;
@@ -7667,7 +7594,12 @@ input, textarea {
     .text-vivelo{font-size: 8px;
                  margin-top: 4%;}
     .text-overTienes{margin-left: -6.9%;font-size: 50px;}
-    .descrube{margin-top: 1%;font-size: 6px;}   
+    .descrube{margin-top: 1%;font-size: 6px;}
+    .logo-center{
+        height: 42%;
+        margin-left: 45%;
+        margin-top: 45%;
+        width: 14%;}
     .img-margin-adita{   
         margin-top: 10%;
         width: 62%;}
@@ -7679,16 +7611,16 @@ input, textarea {
     .img-margin-buho{   
         margin-top: 10%;
         width: 62%;}    
-    .logo-center-sec3{   
+    .logo-centerParques .logo-center-sec3{   
         float: left;
-        height: 7.9%;
+        height: 6.9%;
         margin-left: 42%;
         margin-top: 28%;
         position: absolute;
-        width: 16%;
+        width: 17%;
         z-index: 5;
     } 
-    .tipo{font-size:0.9em;margin-top:-4%;}
+    .tipo{font-size:0.5em;margin-top:-4%;}
     #logo1{ height:20%;}
     .socialLinks{
         margin-left: -1%;
@@ -7698,90 +7630,59 @@ input, textarea {
 /* media query  640 andre */
 @media (min-width: 640px) and (max-width: 719px) {
 
-    .logo-center-descubre{
-        margin: 26.3% 0 0 44.6%;
-        position: absolute;
-        width: 10%;
-    }
-    .margin-logo{
-        margin-top: -7%;
-    width: 16%;
-    }
-    .logo-center{
-        height: 41%;
-        margin-left: 43%;
+    .cover .text-overMetro{
+
         margin-top: -5%;
-        position: absolute;
-        width: 13%;}
-    .margin-logo-page {
-        width: 19.8%;
     }
-    .socialLinks img {
-        width: 27px;
-    }
-    .thumbnail-list p {
-        font-size: 2.2em;
-    margin-left: -1%;
-    margin-top: -7%;
-    }
-   .cover .text-over-tienes-vivirlo{font-size: 5.2em;}
-    .navbar-nav > li > a {
-        margin-top: 2%;
-        padding-bottom: 0;
-        padding-top: 7px;
-        font-size:1em;
-    }
-    .descrubelos {
-        font-size: 7px;
-        margin-top:5%;
+    .titulo-descubre {
+        font-size: 2.4em;
+        margin-left: 5%;
     }
     .titulo {
-        font-family: 'chalkdust';
-        font-size: 3em;
-        //color: #31150b;
         color: #FFFFFF;
-        text-shadow: 1.2px 3.1px 3.0px #000000;
+        font-family: 'chalkdust';
+        font-size: 1.5em;
+        text-shadow: 1.2px 3.1px 3px #000000;
     }
-    .subtitulo {
-        color: #31150B;
-        font-family: 'myFirstFont';
-        font-size: 6.2em;
-        font-weight: normal;
-        padding: -5px 0 0;
-    }
-    .descubrelos {
-        float: right;
-        font-size: 2.8em;
-        margin-top: 11%;
-    }
-    .disfrutalos {
-        float: right;
-
-    }
-    .vivelos {
-        float: left;
-        font-size: 3em;
-        margin-top: 15%;
-    }
-    .titulo-descubre{ font-size: 1.4em;
-                      margin-left: 1%;
-
-    }
-    .social .img-responsive{      
-
-        margin-top: 45%;
-
-    } 
     .social {
         display: block;
         position: absolute;
         right: 0;
         top: 0;
-        margin: -25px 2px 16px -3px;
+        margin: -20px 24px 16px -3px;
     }
     .socialLinks img {
         width: 27px;
     }
+    .text-disfrutalos {
+        font-size: 0.7em;
+        margin-left: 25%;
+        margin-top: -16%;
+    }
+    .margin-logo-page {
+        margin: 0 0 0 2.4%;
+        width: 15%;
+    }
+    .tipo{font-size:0.9em;margin-top:-4%;}
+    .text-overTienes{margin-top: -6.9%;font-size: 11px;}
+    .text-over{margin-left: -10%;
+               margin-top: 0.1%;}
+    .logo-centerParques .logo-center-sec3{   
+        float: left;
+        height: 7.9%;
+        margin-left: 42%;
+        margin-top: 28%;
+        position: absolute;
+        width: 17%;
+        z-index: 5;
+    } 
+    .logo-center-descubre{   
+        float: left; 
+        margin-left: 43%;
+        margin-top: -38%;
+        position: relative;
+        width: 13%;
+    } 
     .cover .text-overMetro{ font-size: 18px;
                             margin-left: -6%;
                             margin-top: -3%;}
@@ -7789,147 +7690,110 @@ input, textarea {
                                margin-left: -10%;
                                margin-top: -5%;} 
     .cover .text-overVive{  font-size: 18px;
-                            margin-left: -13%;
+                            margin-left: -10.9%;
                             margin-top: -5%;}      
     .cover .text-overRecorre{  font-size: 18px;
                                margin-left: -17%;
-                               margin-top: -5%;}      
+                               margin-top: -5%;}  
+    .text-overTienes{margin-left: -6.9%;font-size: 50px;}
     .cover .text-overCuscungo{   margin-left: -4%;
                                  margin-top: -6%; font-size: 18px;}
     .cover .text-overArmenia{  font-size: 18px;
                                margin-left: -11%;
                                margin-top: -6%;}
     .cover .text-overSiente{  font-size: 18px;
-                              margin-left: -13%;
+                              margin-left: -10.9%;
                               margin-top: -5%;}
-
-    .text-vivelo{font-size: 8px;
-                 margin-top: 4%;}
-    .text-overTienes{margin-left: -6.9%;font-size: 50px;}
-    .descrube{margin-top: 1%;font-size: 6px;}   
-    .img-margin-adita{   
-        margin-top: 10%;
-        width: 62%;}
-    .text-disfrutalos {
-        font-size: 0.4em;
-        margin-left: 30%;
-        margin-top: -17%;
-    }
-    .img-margin-buho{   
-        margin-top: 10%;
-        width: 62%;}    
-    .logo-center-sec3{   
-        float: left;
-        height: 7.9%;
-        margin-left: 42%;
-        margin-top: 28%;
-        position: absolute;
-        width: 16%;
-        z-index: 5;
-    } 
-    .tipo{font-size:0.9em;margin-top:-4%;}
-    #logo1{ height:20%;}
-    .socialLinks{
-        margin-left: -1%;
+    .logo-center{
+        height: 42%;
+        margin-left: 43%;
         margin-top: -5%;
+        width: 14%;
+        position:absolute;}
+    .margin-logo{z-index:-1;   width: 16%;}
+
+    .navbar-nav > li > a {
+        font-size: 87%;
+        line-height: 3px;
+        margin-top: 4%;
+        padding-bottom: 2px;
+        padding-top: 3px;
+        margin-left:2%;
     }
+
+    .cover .text-overArmenia{
+
+        margin-top: -8%;
+    }
+    .cover .text-overCuscungo{
+
+        margin-top: -8%;
+    }
+
 }
 
 /* media query  720 andre */
 @media (min-width: 720px) and (max-width: 767px) {
 
-    .logo-center-descubre{
-        margin: 26.3% 0 0 44.6%;
-        position: absolute;
-        width: 10%;
-    }
-    .margin-logo{
-        margin-top: -6%;
-    width: 13%;
-    }
-    .logo-center{
-        height: 41%;
-        margin-left: 43%;
+    .cover .text-overMetro{
+
         margin-top: -5%;
-        position: absolute;
-        width: 13%;}
-    .margin-logo-page {
-        width: 19.8%;
     }
-    .socialLinks img {
-        width: 27px;
-    }
-    .thumbnail-list p {
-        font-size: 2.2em;
-    margin-left: -1%;
-    margin-top: -7%;
-    }
-   .cover .text-over-tienes-vivirlo{font-size: 5.2em;}
-    .navbar-nav > li > a {
-        margin-top: 2%;
-        padding-bottom: 0;
-        padding-top: 7px;
-        font-size:1em;
-    }
-    .descrubelos {
-        font-size: 7px;
-        margin-top:5%;
+    .logo-center-descubre{   
+        float: left; 
+        margin-left: 43%;
+        margin-top: -38%;
+        position: relative;
+        width: 13%;
+    } 
+    .titulo-descubre {
+        font-size: 2.4em;
+        margin-left: 5%;
     }
     .titulo {
-        font-family: 'chalkdust';
-        font-size: 3em;
-        //color: #31150b;
         color: #FFFFFF;
-        text-shadow: 1.2px 3.1px 3.0px #000000;
+        font-family: 'chalkdust';
+        font-size: 1.5em;
+        text-shadow: 1.2px 3.1px 3px #000000;
     }
-    .subtitulo {
-        color: #31150B;
-        font-family: 'myFirstFont';
-        font-size: 6.2em;
-        font-weight: normal;
-        padding: -5px 0 0;
-    }
-    .descubrelos {
-        float: right;
-        font-size: 2.8em;
-        margin-top: 11%;
-    }
-    .disfrutalos {
-        float: right;
-
-    }
-    .vivelos {
-        float: left;
-        font-size: 3em;
-        margin-top: 15%;
-    }
-    .titulo-descubre{ font-size: 1.4em;
-                      margin-left: 1%;
-
-    }
-    .social .img-responsive{      
-
-        margin-top: 45%;
-
-    } 
     .social {
         display: block;
         position: absolute;
         right: 0;
         top: 0;
-        margin: -25px 2px 16px -3px;
+        margin: -20px 20px 16px 20px;
     }
     .socialLinks img {
         width: 27px;
     }
+    .margin-logo-page{margin: 0 0 0 2.4%;
+                      width:15%;}
+    .text-disfrutalos {
+        font-size: 0.7em;
+        margin-left: 34%;
+        margin-top: -14%;
+    }
+    .tipo{font-size:0.9em;margin-top:-4%;}
+    .text-overTienes{margin-top: -6.9%;font-size: 11px;}
+    .logo-centerParques .logo-center-sec3{   
+        float: left;
+        height: 8.9%;
+        margin-left: 41%;
+        margin-top: 28%;
+        position: absolute;
+        width: 17%;
+        z-index: 5;
+    }
+
+    .margin-logo{ width: 15%;}
     .cover .text-overMetro{ font-size: 18px;
-                            margin-left: -6%;
+                            margin-left: -4%;
                             margin-top: -3%;}
     .cover .text-overRespira{  font-size: 18px;
                                margin-left: -10%;
                                margin-top: -5%;} 
     .cover .text-overVive{  font-size: 18px;
-                            margin-left: -13%;
+                            margin-left: -7.9%;
                             margin-top: -5%;}      
     .cover .text-overRecorre{  font-size: 18px;
                                margin-left: -17%;
@@ -7937,611 +7801,247 @@ input, textarea {
     .cover .text-overCuscungo{   margin-left: -4%;
                                  margin-top: -6%; font-size: 18px;}
     .cover .text-overArmenia{  font-size: 18px;
-                               margin-left: -11%;
+                               margin-left: -6.9%;
                                margin-top: -6%;}
     .cover .text-overSiente{  font-size: 18px;
-                              margin-left: -13%;
+                              margin-left: -7.9%;
                               margin-top: -5%;}
-
-    .text-vivelo{font-size: 8px;
-                 margin-top: 4%;}
-    .text-overTienes{margin-left: -6.9%;font-size: 50px;}
-    .descrube{margin-top: 1%;font-size: 6px;}   
-    .img-margin-adita{   
-        margin-top: 10%;
-        width: 62%;}
-    .text-disfrutalos {
-        font-size: 0.4em;
-        margin-left: 30%;
-        margin-top: -17%;
-    }
-    .img-margin-buho{   
-        margin-top: 10%;
-        width: 62%;}    
-    .logo-center-sec3{   
-        float: left;
-        height: 7.9%;
-        margin-left: 42%;
-        margin-top: 28.9%;
-        position: absolute;
-        width: 16%;
-        z-index: 5;
-    } 
-    .tipo{font-size:0.9em;margin-top:-4%;}
-    #logo1{ height:20%;}
-    .socialLinks{
-        margin-left: -1%;
+    .logo-center{
+        height: 42%;
+        margin-left: 43%;
         margin-top: -5%;
+        width: 14%;
+        position:absolute;}
+    .navbar-nav > li > a {
+        font-size: 0.9em;
+        line-height: 0;
+        padding-bottom: 0;
+        padding-top: 38px;
     }
+
+    .cover .text-overArmenia{
+
+        margin-top: -8%;
+    }
+    .cover .text-overCuscungo{
+
+        margin-top: -8%;
+    }
+    .text-overTienes{font-size: 66px;
+                     margin-left: -1.9%;}
 }
 
 /* media query  768 andre */
 @media (min-width: 768px) and (max-width: 799px){
-    .logo-center-descubre{
-        margin: 26.3% 0 0 44.6%;
+    .text-overMetro{      
+
+        margin-top: -2%;
+
+    }
+    .text-overArmenia
+    {      
+
+        margin-top: -2%;
+
+    }
+    .cover .text-overCuscungo{      
+
+        margin-top: -2%;
+
+    }
+    .logo-centerParques .logo-center-sec3
+
+    {
+        margin-top: 29%;
         position: absolute;
-        width: 10%;
-    }
-    .margin-logo{
-        margin-top: -6%;
-    width: 13%;
-    margin-left:4%;
-    }
-    .logo-center{
-        height: 41%;
-        margin-left: 43%;
-        margin-top: -5%;
-        position: absolute;
-        width: 13%;}
-    .margin-logo-page {
-        width: 19.8%;
-    }
-    .socialLinks img {
-        width: 27px;
-    }
-    .thumbnail-list p {
-        font-size: 2.2em;
-    margin-left: -1%;
-    margin-top: -7%;
-    }
-   .cover .text-over-tienes-vivirlo{font-size: 5.2em;}
-    .navbar-nav > li > a {
-        margin-top: 2%;
-        padding-bottom: 0;
-        padding-top: 7px;
-        font-size:1em;
-    }
-    .descrubelos {
-        font-size: 7px;
-        margin-top:5%;
-    }
-    .titulo {
-        font-family: 'chalkdust';
-        font-size: 3em;
-        //color: #31150b;
-        color: #FFFFFF;
-        text-shadow: 1.2px 3.1px 3.0px #000000;
-    }
-    .subtitulo {
-        color: #31150B;
-        font-family: 'myFirstFont';
-        font-size: 6.2em;
-        font-weight: normal;
-        padding: -5px 0 0;
-    }
-    .descubrelos {
-        float: right;
-        font-size: 2.8em;
-        margin-top: 8%;
-    }
-    .disfrutalos {
-        float: right;
-        margin-top:5%;
-
-    }
-    .vivelos {
-        float: left;
-        font-size: 3em;
-        margin-top: 15%;
-    }
-    .titulo-descubre{ font-size: 1.4em;
-                      margin-left: 1%;
-
-    }
-    .social .img-responsive{      
-
-        margin-top: 45%;
-
-    } 
-    .social {
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-        margin: -25px 2px 16px -3px;
-    }
-    .socialLinks img {
-        width: 27px;
-    }
-    .cover .text-overMetro{ font-size: 18px;
-                            margin-left: -6%;
-                            margin-top: -3%;}
-    .cover .text-overRespira{  font-size: 18px;
-                               margin-left: -10%;
-                               margin-top: -5%;} 
-    .cover .text-overVive{  font-size: 18px;
-                            margin-left: -13%;
-                            margin-top: -5%;}      
-    .cover .text-overRecorre{  font-size: 18px;
-                               margin-left: -17%;
-                               margin-top: -5%;}      
-    .cover .text-overCuscungo{   margin-left: -4%;
-                                 margin-top: -6%; font-size: 18px;}
-    .cover .text-overArmenia{  font-size: 18px;
-                               margin-left: -11%;
-                               margin-top: -6%;}
-    .cover .text-overSiente{  font-size: 18px;
-                              margin-left: -13%;
-                              margin-top: -5%;}
-
-    .text-vivelo{font-size: 8px;
-                 margin-top: 4%;}
-    .text-overTienes{margin-left: -6.9%;font-size: 50px;}
-    .descrube{margin-top: 1%;font-size: 6px;}   
-    .img-margin-adita{   
-        margin-top: 10%;
-          width: 46%;}
-    .text-disfrutalos {
-        font-size: 0.4em;
-        margin-left: 30%;
-        margin-top: -17%;
-    }
-    .img-margin-buho{   
-        margin-top: 5%;
-    width: 48%;}    
-    .logo-center-sec3{   
-        float: left;
-        height: 9.9%;
-        margin-left: 42%;
-        margin-top: 28%;
-        position: absolute;
-        width: 16%;
         z-index: 5;
-    } 
-    .tipo{font-size:0.9em;margin-top:-4%;}
-    #logo1{ height:20%;}
-    .socialLinks{
-        margin-left: -1%;
-        margin-top: -5%;
+        margin-left: 43%;
+
+    }
+    .cover .text-overSiente{
+        margin-left: -5%;
+        margin-top: -4%;
+
+    }
+    .cover .text-overVive{
+        margin-left: -5%;
+        margin-top: -4%;
+
+    }
+    .cover .text-overRespira{
+        margin-left: -5%;
+        margin-top: -4%;
+
+    }
+    .cover .text-overRecorre
+    {
+        margin-left: -5%;
+        margin-top: -4%;
+
+    }
+    .text-overTienes
+    {
+        margin-left: -5%;
+        margin-top: -4%;
+
     }
 }
 
 /* media query  800 andre */
 @media (min-width: 800px) and (max-width: 1023px) {
-    .logo-center-descubre{
-        margin: 26.3% 0 0 44.6%;
-        position: absolute;
-        width: 10%;
-    }
-    .margin-logo{
-        margin-top: -4%;
-    width: 13%;
-    margin-left:4%;
-    }
-    .logo-center{
-        height: 41%;
-        margin-left: 43%;
-        margin-top: -5%;
-        position: absolute;
-        width: 13%;}
-    .margin-logo-page {
-        width: 19.8%;
-    }
-    .socialLinks img {
-        width: 27px;
-    }
-    .thumbnail-list p {
-        font-size: 2.2em;
-    margin-left: -1%;
-    margin-top: -7%;
-    }
-   .cover .text-over-tienes-vivirlo{font-size: 5.2em;}
-    .navbar-nav > li > a {
-        margin-top: 2%;
-        padding-bottom: 0;
-        padding-top: 7px;
-        font-size:1em;
-    }
-    .descrubelos {
-        font-size: 7px;
-        margin-top:5%;
-    }
-    .titulo {
-        font-family: 'chalkdust';
-        font-size: 3em;
-        //color: #31150b;
-        color: #FFFFFF;
-        text-shadow: 1.2px 3.1px 3.0px #000000;
-    }
-    .subtitulo {
-        color: #31150B;
-        font-family: 'myFirstFont';
-        font-size: 6.2em;
-        font-weight: normal;
-        padding: -5px 0 0;
-    }
-    .descubrelos {
-        float: right;
-        font-size: 2.8em;
-        margin-top: 8%;
-    }
-    .disfrutalos {
-        float: right;
-        margin-top:5%;
-
-    }
-    .vivelos {
-        float: left;
-        font-size: 3em;
-        margin-top: 15%;
-    }
-    .titulo-descubre{ font-size: 1.4em;
-                      margin-left: 1%;
-
-    }
-    .social .img-responsive{      
-
-        margin-top: 45%;
-
-    } 
-    .social {
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-        margin: -25px 2px 16px -3px;
-    }
-    .socialLinks img {
-        width: 27px;
-    }
-    .cover .text-overMetro{ font-size: 18px;
-                            margin-left: -6%;
-                            margin-top: -3%;}
-    .cover .text-overRespira{  font-size: 18px;
-                               margin-left: -10%;
-                               margin-top: -5%;} 
-    .cover .text-overVive{  font-size: 18px;
-                            margin-left: -13%;
-                            margin-top: -5%;}      
-    .cover .text-overRecorre{  font-size: 18px;
-                               margin-left: -17%;
-                               margin-top: -5%;}      
-    .cover .text-overCuscungo{   margin-left: -4%;
-                                 margin-top: -6%; font-size: 18px;}
-    .cover .text-overArmenia{  font-size: 18px;
-                               margin-left: -11%;
-                               margin-top: -6%;}
-    .cover .text-overSiente{  font-size: 18px;
-                              margin-left: -13%;
-                              margin-top: -5%;}
-
-    .text-vivelo{font-size: 8px;
-                 margin-top: 4%;}
-    .text-overTienes{margin-left: -6.9%;font-size: 50px;}
-    .descrube{margin-top: 1%;font-size: 6px;}   
-    .img-margin-adita{   
-        margin-top: 10%;
-          width: 46%;}
-    .text-disfrutalos {
-        font-size: 0.4em;
-        margin-left: 30%;
-        margin-top: -17%;
-    }
-    .img-margin-buho{   
-        margin-top: 5%;
-    width: 48%;}    
-    .logo-center-sec3{   
-        float: left;
-        height: 7.9%;
-        margin-left: 42%;
-        margin-top: 28%;
-        position: absolute;
-        width: 16%;
-        z-index: 5;
-    } 
-    .tipo{font-size:0.9em;margin-top:-4%;}
-    #logo1{ height:20%;}
-    .socialLinks{
-        margin-left: -1%;
-        margin-top: -5%;
-    }
 
 }
 
 /* media query  1024 andre */
 @media (min-width: 1024px) and (max-width: 1279px) {
-    .logo-center-descubre{
-        margin: 26.3% 0 0 44.6%;
-        position: absolute;
-        width: 10%;
+    .thumbnail-list .text-over-tienes-vivirlo {
+        font-size: 6.0em;
     }
-    .margin-logo{
-        margin-top: -3.4%;
-    width: 13%;
-    margin-left:4%;
-    }
-    .logo-center{
-        height: 41%;
-        margin-left: 43%;
-        margin-top: -5%;
-        position: absolute;
-        width: 13%;}
     .margin-logo-page {
-        width: 19.8%;
+        margin: 0 0 0 2%;
     }
-    .socialLinks img {
-        width: 27px;
-    }
-    .thumbnail-list p {
-        font-size: 2.2em;
-    margin-left: -1%;
-    margin-top: -7%;
-    }
-   .cover .text-over-tienes-vivirlo{font-size: 5.2em;}
-    .navbar-nav > li > a {
-        margin-top: 2%;
-        padding-bottom: 0;
-        padding-top: 7px;
-        font-size:1em;
-    }
-    .descrubelos {
-        font-size: 7px;
-        margin-top:5%;
+    .titulo-descubre {
+        font-size: 2.4em;
+        margin-left: 0%;
     }
     .titulo {
-        font-family: 'chalkdust';
-        font-size: 3em;
-        //color: #31150b;
         color: #FFFFFF;
-        text-shadow: 1.2px 3.1px 3.0px #000000;
+        font-family: 'chalkdust';
+        font-size: 1.5em;
+        text-shadow: 1.2px 3.1px 3px #000000;
     }
-    .subtitulo {
-        color: #31150B;
-        font-family: 'myFirstFont';
-        font-size: 6.2em;
-        font-weight: normal;
-        padding: -5px 0 0;
-    }
-    .descubrelos {
-        float: right;
-        font-size: 2.8em;
-        margin-top: 5%;
-    }
-    .disfrutalos {
-        float: right;
-        margin-top:5%;
-
-    }
-    .vivelos {
-        float: left;
-        font-size: 3em;
-        margin-top: 15%;
-    }
-    .titulo-descubre{ font-size: 1.4em;
-                      margin-left: 1%;
-
-    }
-    .social .img-responsive{      
-
-        margin-top: 45%;
-
-    } 
     .social {
         display: block;
         position: absolute;
         right: 0;
         top: 0;
-        margin: -25px 2px 16px -3px;
+        margin: -40px 20px 16px -3px;
     }
     .socialLinks img {
-        width: 27px;
+        width: 35px;
     }
-    .cover .text-overMetro{ font-size: 18px;
-                            margin-left: -6%;
+    .text-disfrutalos {
+        font-size: 0.9em;
+        margin-left: 36%;
+        margin-top: -10%;
+    }
+    .thumbnail-list .text-over-tienes-vivirlo {
+        font-size: 9em;
+    }
+    .tipo{font-size:0.9em;margin-top:-2%;}
+    .text-overTienes{margin-top: -6.9%;font-size: 11px;}
+    .logo-centerParques .logo-center-sec3{   
+        float: left;
+        height: 10.9%;
+        margin-left: 42%;
+        margin-top: 29%;
+        position: absolute;
+        width: 16%;
+        z-index: 5;
+    } 
+    .cover .text-overMetro{ font-size: 30px;
+                            margin-left: -1%;
                             margin-top: -3%;}
-    .cover .text-overRespira{  font-size: 18px;
+    .cover .text-overRespira{  font-size: 28px;
+
                                margin-left: -10%;
                                margin-top: -5%;} 
-    .cover .text-overVive{  font-size: 18px;
-                            margin-left: -13%;
+    .cover .text-overVive{  font-size: 28px;
+
+                            margin-left: -2.9%;
                             margin-top: -5%;}      
-    .cover .text-overRecorre{  font-size: 18px;
+    .cover .text-overRecorre{  font-size: 28px;
+
                                margin-left: -17%;
                                margin-top: -5%;}      
     .cover .text-overCuscungo{   margin-left: -4%;
-                                 margin-top: -6%; font-size: 18px;}
-    .cover .text-overArmenia{  font-size: 18px;
-                               margin-left: -11%;
+                                 margin-top: -6%; font-size: 28px;}
+    .cover .text-overArmenia{  font-size: 28px;
+                               margin-left: -1.9%;
                                margin-top: -6%;}
-    .cover .text-overSiente{  font-size: 18px;
-                              margin-left: -13%;
+    .cover .text-overSiente{  font-size: 28px;
+                              margin-left: -2.9%;
                               margin-top: -5%;}
-
-    .text-vivelo{font-size: 8px;
-                 margin-top: 4%;}
-    .text-overTienes{margin-left: -6.9%;font-size: 50px;}
-    .descrube{margin-top: 1%;font-size: 6px;}   
-    .img-margin-adita{   
-        margin-top: 10%;
-          width: 46%;}
-    .text-disfrutalos {
-        font-size: 0.4em;
-        margin-left: 30%;
-        margin-top: -17%;
-    }
-    .img-margin-buho{   
-        margin-top: 5%;
-    width: 48%;}    
-    .logo-center-sec3{   
-        float: left;
-    height: 10.9%;
-    margin-left: 43%;
-    margin-top: 28%;
-    position: absolute;
-    width: 14%;
-    z-index: 5;
-    } 
-    .tipo{ font-size: 1.3em;
-    margin-top: -4%;}
-    #logo1{ height:20%;}
-    .socialLinks{
-        margin-left: -1%;
+    .logo-center{
+        height: 43%;
+        margin-left: 43%;
         margin-top: -5%;
+        position: absolute;
+        width: 14%;}
+    .margin-logo{z-index:-1;}
+    .cover .text-overArmenia{
+
+        margin-top: -8%;
+    }
+    .cover .text-overCuscungo{
+
+        margin-top: -8%;
+    }
+    .padding-lateral {
+        padding: 0;
+    }
+    .logo-center{
+        position: absolute;
+        z-index: 2;
+        margin: -3.4% 0 0 41.5%;
+        max-width: 80%;
+        max-height: 80%;
     }
 
+    .logo-center-sec3{
+        position: absolute;
+        z-index: 2;
+        margin: 30.5% 0 0 46.4%;
+    }
+
+    .logo-center-descubre{
+        margin: 28.4% 0 0 45.5%;
+        position: absolute;
+        z-index: 2;
+    }
+    .margen-top-slider {
+        margin: 16.4% 0 0;
+    }
 }
 
 /* media query  1280 andre */
 @media (min-width: 1280px) and (max-width: 1299px) {
-    .logo-center-descubre{
-        margin: 26.3% 0 0 44.6%;
-        position: absolute;
-        width: 10%;
+    .text-disfrutalos {
+        font-size: 0.9em;
+        margin-left: 41%;
+        margin-top: -8%;
     }
-    .margin-logo{
-         margin-top: -2.5%;
-    width: 13%;
-    margin-left:4%;
-    }
-    .logo-center{
-        height: 41%;
-        margin-left: 43%;
-        margin-top: -5%;
-        position: absolute;
-        width: 13%;}
-    .margin-logo-page {
-        width: 19.8%;
+    .padding-lateral {
+        padding: 0 10% 0 10%;
     }
     .socialLinks img {
-        width: 27px;
+        width: 35px;
     }
-    .thumbnail-list p {
-        font-size: 2.2em;
-   margin-left: 1%;
-    margin-top: 0;
-    }
-   .cover .text-over-tienes-vivirlo{font-size: 5.2em;}
-    .navbar-nav > li > a {
-        margin-top: 2%;
-        padding-bottom: 0;
-        padding-top: 7px;
-        font-size:1em;
-    }
-    .descrubelos {
-        font-size: 7px;
-        margin-top:5%;
-    }
-    .titulo {
-        font-family: 'chalkdust';
-        font-size: 3em;
-        //color: #31150b;
-        color: #FFFFFF;
-        text-shadow: 1.2px 3.1px 3.0px #000000;
-    }
-    .subtitulo {
-        color: #31150B;
-        font-family: 'myFirstFont';
-        font-size: 9.2em;
-        font-weight: normal;
-        padding: -5px 0 0;
-    }
-    .descubrelos {
-        float: right;
-         font-size: 3.5em;
-    margin-top: 4%;
-    }
-    .disfrutalos {
-        float: right;
-        margin-top:9%;
-
-    }
-    .vivelos {
-        float: left;
-         font-size: 5em;
-    margin-top: 6%;
-    }
-    .titulo-descubre{ font-size: 1.4em;
-                      margin-left: 1%;
-
-    }
-    .social .img-responsive{      
-
-        margin-top: 45%;
-
-    } 
     .social {
         display: block;
         position: absolute;
         right: 0;
         top: 0;
-        margin: -25px 2px 16px -3px;
+        margin: -45px 35px 0 0;
     }
-    .socialLinks img {
-        width: 27px;
+    .logo-center{
+        position: absolute;
+        z-index: 2;
+        margin: -3.4% 0 0 46.6%;
     }
-    .cover .text-overMetro{ font-size: 18px;
-                            margin-left: -6%;
-                            margin-top: -3%;}
-    .cover .text-overRespira{  font-size: 18px;
-                               margin-left: -10%;
-                               margin-top: -5%;} 
-    .cover .text-overVive{  font-size: 18px;
-                            margin-left: -13%;
-                            margin-top: -5%;}      
-    .cover .text-overRecorre{  font-size: 18px;
-                               margin-left: -17%;
-                               margin-top: -5%;}      
-    .cover .text-overCuscungo{   margin-left: -4%;
-                                 margin-top: -6%; font-size: 18px;}
-    .cover .text-overArmenia{  font-size: 18px;
-                               margin-left: -11%;
-                               margin-top: -6%;}
-    .cover .text-overSiente{  font-size: 18px;
-                              margin-left: -13%;
-                              margin-top: -5%;}
-
-    .text-vivelo{font-size: 8px;
-                 margin-top: 4%;}
-    .text-overTienes{margin-left: -6.9%;font-size: 50px;}
-    .descrube{margin-top: 1%;font-size: 6px;}   
-    .img-margin-adita{   
-          margin-top: 4%;
-    width: 31%;}
-    .text-disfrutalos {
-        font-size: 0.4em;
-        margin-left: 30%;
-        margin-top: -17%;
+    .logo-center-sec3{
+        position: absolute;
+        z-index: 2;
+        margin: 30.2% 0 0 46.0%;
     }
-    .img-margin-buho{   
-         margin-top: 2%;
-    width: 38%;}    
-    .logo-center-sec3{   
-         float: left;
-      height: 20.9%;
-    margin-left: 43%;
-    margin-top: 29%;
-    position: absolute;
-    width: 14%;
-    z-index: 5;
-    } 
-    .tipo{   font-size: 1.9em;
-    margin-top: -1%;}
-    #logo1{ height:20%;}
-    .socialLinks{
-        margin-left: -1%;
-        margin-top: -5%;
+    .logo-center-descubre{
+        margin: 22.5% 0 0 36.6%;
+        position: absolute;
+        z-index: 2;
     }
-
+    .margen-top-slider {
+        margin: 30.0% 0 0;
+    }
 }
 
 /* media query  1300 andre */
@@ -8557,6 +8057,9 @@ input, textarea {
         right: 0;
         top: 0;
         margin: -45px 35px 0 0;
+    }
+     .margen-top-slider {
+        margin: 16.4% 0 0;
     }
 }
 
@@ -8598,7 +8101,7 @@ input, textarea {
         z-index: 2;
     }
     .logo-center-sec3 {
-        margin: 30.2% 0 0 46%;
+        margin: 30.4% 0 0 46.4%;
         position: absolute;
         z-index: 2;
     }
@@ -8606,17 +8109,15 @@ input, textarea {
         font-size: 6em;
     }
     .logo-center-descubre {
-        margin: 27.5% 0 0 45.6%;
-        position: absolute;
-        z-index: 2;
+    margin: 27.5% 0 0 45.6%;
+    position: absolute;
+    z-index: 2;
+}
+ .margen-top-slider {
+        margin: 34.0% 0 0 0;
     }
-    .margen-top-slider {
-        margin: 34% 0 0;
-    }
-    .thumbnail-list p {
-        //  font-size: 1.6em;
-        font-size: 2.4em;
-        margin: 0 5% 0 5%;
+    .armenia-margen-img1{
+        padding: 8% 18%;
     }
 
 }
@@ -9879,6 +9380,11 @@ a img.aligncenter {
     font-size: 1.2em;
 }
 
+.thumbnail-list p {
+    //  font-size: 1.6em;
+    font-size: 2.4em;
+    margin: 0 5% 0 5%;
+}
 .thumbnail-list .trekking {
     font-size: 1.7em;
 }

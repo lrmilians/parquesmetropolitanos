@@ -1,4 +1,3 @@
-
 <div class="row fondo-pie">
     <div class="col-xs-12 padding-lateral pie">
         <div class="col-xs-6">

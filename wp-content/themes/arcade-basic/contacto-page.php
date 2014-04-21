@@ -1,25 +1,23 @@
 <div class="row">
-    <div class="col-xs-8 armenia-margen-img1 sin-padding">
-        <form role="form">
-            <div class="form-group">
-                <label class="control-label text-label-contacto" for="inputName">Nombre</label>
-                <input required="required" type="text" class="form-control"  id="inputName">
-            </div>
-            <div class="form-group">
-                <label class="control-label text-label-contacto" for="inputPhone">Teléfono</label>
-                <input required="required" type="text" class="form-control" id="inputPhone">
-            </div>
-            <div class=" form-group">
-                <label class="control-label text-label-contacto"for="inputEmail">Correo electrónico</label>
-                <input required="required" type="email" class="form-control" id="inputEmail">
-            </div>
-            <div class="form-group">
-                <label class="control-label text-label-contacto" for="texareaSugerencia">Danos tus sugerencias</label>
-                <textarea required="required" class="form-control" rows="3" id="texareaSugerencia"></textarea>
-            </div>
+    <div class="col-xs-10 sin-padding" style="padding:1% 15%;">
+       <?php
+                            while (have_posts()) : the_post();
+                                ?>
+                                <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+                                  <!--  <h1 class="entry-title"><?php //the_title(); ?></h1> -->
+                                    
+                                    <div class="entry-content description clearfix">
+                                        <?php the_content(__('Read more', 'arcade')); ?>
+                                    </div><!-- .entry-content -->
 
-            <button type="submit" class="btn btn-default text-label-contacto">Contáctenos</button>
-        </form>
+                                    <?php get_template_part('content', 'footer'); ?>
+                                </article><!-- #post-<?php the_ID(); ?> -->
+
+                                <?php
+                                
+                            endwhile;
+                            ?>
+                                
     </div> 
 </div>
 <div class="row">
